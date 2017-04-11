@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="75">
+	<ValidationCacheItem File="C:\Users\clement.rondeau\Documents\axiome\wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3309676919" DateHigh="30585540"/>
+	<ValidationCacheItem File="C:\Users\clement.rondeau\Documents\axiome\wwise\Attenuations\Default Work Unit.wwu" DateLow="2655708181" DateHigh="30585306"/>
+	<ValidationCacheItem File="C:\Users\clement.rondeau\Documents\axiome\wwise\Audio Devices\Default Work Unit.wwu" DateLow="2655718179" DateHigh="30585306"/>
+	<ValidationCacheItem File="C:\Users\clement.rondeau\Documents\axiome\wwise\axiome_WwiseProject.wproj" DateLow="2655668178" DateHigh="30585306"/>
+	<ValidationCacheItem File="C:\Users\clement.rondeau\Documents\axiome\wwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="2371262735" DateHigh="30585540"/>
+	<ValidationCacheItem File="C:\Users\clement.rondeau\Documents\axiome\wwise\Conversion Settings\Default Work Unit.wwu" DateLow="2655798191" DateHigh="30585306"/>
+	<ValidationCacheItem File="C:\Users\clement.rondeau\Documents\axiome\wwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="2655808198" DateHigh="30585306"/>
+	<ValidationCacheItem File="C:\Users\clement.rondeau\Documents\axiome\wwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="2655758191" DateHigh="30585306"/>
+	<ValidationCacheItem File="C:\Users\clement.rondeau\Documents\axiome\wwise\Effects\Default Work Unit.wwu" DateLow="2655778187" DateHigh="30585306"/>
+	<ValidationCacheItem File="C:\Users\clement.rondeau\Documents\axiome\wwise\Effects\Factory Effects.wwu" DateLow="2655788199" DateHigh="30585306"/>
+	<ValidationCacheItem File="C:\Users\clement.rondeau\Documents\axiome\wwise\Events\Default Work Unit.wwu" DateLow="1937654316" DateHigh="30585541"/>
+	<ValidationCacheItem File="C:\Users\clement.rondeau\Documents\axiome\wwise\Game Parameters\Default Work Unit.wwu" DateLow="2655838200" DateHigh="30585306"/>
+	<ValidationCacheItem File="C:\Users\clement.rondeau\Documents\axiome\wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="2655858213" DateHigh="30585306"/>
+	<ValidationCacheItem File="C:\Users\clement.rondeau\Documents\axiome\wwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2655868205" DateHigh="30585306"/>
+	<ValidationCacheItem File="C:\Users\clement.rondeau\Documents\axiome\wwise\Mixing Sessions\Default Work Unit.wwu" DateLow="2655698175" DateHigh="30585306"/>
+	<ValidationCacheItem File="C:\Users\clement.rondeau\Documents\axiome\wwise\Modulators\Default Work Unit.wwu" DateLow="2655868205" DateHigh="30585306"/>
+	<ValidationCacheItem File="C:\Users\clement.rondeau\Documents\axiome\wwise\Presets\Default Work Unit.wwu" DateLow="2655898219" DateHigh="30585306"/>
+	<ValidationCacheItem File="C:\Users\clement.rondeau\Documents\axiome\wwise\Queries\Default Work Unit.wwu" DateLow="2655908231" DateHigh="30585306"/>
+	<ValidationCacheItem File="C:\Users\clement.rondeau\Documents\axiome\wwise\Queries\Factory Queries.wwu" DateLow="2655918223" DateHigh="30585306"/>
+	<ValidationCacheItem File="C:\Users\clement.rondeau\Documents\axiome\wwise\SoundBanks\Default Work Unit.wwu" DateLow="2001235005" DateHigh="30585541"/>
+	<ValidationCacheItem File="C:\Users\clement.rondeau\Documents\axiome\wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="2655938233" DateHigh="30585306"/>
+	<ValidationCacheItem File="C:\Users\clement.rondeau\Documents\axiome\wwise\States\Default Work Unit.wwu" DateLow="2655748181" DateHigh="30585306"/>
+	<ValidationCacheItem File="C:\Users\clement.rondeau\Documents\axiome\wwise\Switches\Default Work Unit.wwu" DateLow="2655978242" DateHigh="30585306"/>
+	<ValidationCacheItem File="C:\Users\clement.rondeau\Documents\axiome\wwise\Triggers\Default Work Unit.wwu" DateLow="2655738184" DateHigh="30585306"/>
 	<ValidationCacheItem File="C:\Users\clement.rondeau\Documents\axiome_WwiseIntegrationTemp\axiome_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2125475058" DateHigh="30585306"/>
 	<ValidationCacheItem File="C:\Users\clement.rondeau\Documents\axiome_WwiseIntegrationTemp\axiome_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="2125545081" DateHigh="30585306"/>
 	<ValidationCacheItem File="C:\Users\clement.rondeau\Documents\axiome_WwiseIntegrationTemp\axiome_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="2125625107" DateHigh="30585306"/>

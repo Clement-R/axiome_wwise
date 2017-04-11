@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{9A008EA6-78AA-4382-B22A-A38632770768}" SchemaVersion="75">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{9A008EA6-78AA-4382-B22A-A38632770768}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{9A008EA6-78AA-4382-B22A-A38632770768}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="mood_test" ID="{4D19EBDF-3491-4E8F-B181-69236D7C58DD}">
+					<ChildrenList>
+						<Action Name="Play" ID="{7021BF7F-03A4-4278-BA17-102BA60FAB54}" ShortID="135686855" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{680A7A2D-F83E-4BD4-9FA2-BB31C400713B}" Global="false">
+									<ObjectRef Name="test mood axiome" ID="{936D43E5-EA1B-4747-B8DF-7F5BA45B3504}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
