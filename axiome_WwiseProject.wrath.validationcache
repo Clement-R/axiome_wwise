@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="75">
+	<ValidationCacheItem File="F:\Documents\ENJMIN\Projet M1\axiome\wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3155492801" DateHigh="30589580"/>
+	<ValidationCacheItem File="F:\Documents\ENJMIN\Projet M1\axiome\wwise\Attenuations\Default Work Unit.wwu" DateLow="107028510" DateHigh="30585314"/>
+	<ValidationCacheItem File="F:\Documents\ENJMIN\Projet M1\axiome\wwise\Audio Devices\Default Work Unit.wwu" DateLow="107028510" DateHigh="30585314"/>
+	<ValidationCacheItem File="F:\Documents\ENJMIN\Projet M1\axiome\wwise\axiome_WwiseProject.wproj" DateLow="3180079348" DateHigh="30589580"/>
+	<ValidationCacheItem File="F:\Documents\ENJMIN\Projet M1\axiome\wwise\axiome_WwiseProject.wrath.wsettings" DateLow="3203680604" DateHigh="30589580"/>
+	<ValidationCacheItem File="F:\Documents\ENJMIN\Projet M1\axiome\wwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="3155517592" DateHigh="30589580"/>
+	<ValidationCacheItem File="F:\Documents\ENJMIN\Projet M1\axiome\wwise\Conversion Settings\Default Work Unit.wwu" DateLow="107028510" DateHigh="30585314"/>
+	<ValidationCacheItem File="F:\Documents\ENJMIN\Projet M1\axiome\wwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="107497285" DateHigh="30585314"/>
+	<ValidationCacheItem File="F:\Documents\ENJMIN\Projet M1\axiome\wwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="107497285" DateHigh="30585314"/>
+	<ValidationCacheItem File="F:\Documents\ENJMIN\Projet M1\axiome\wwise\Effects\Default Work Unit.wwu" DateLow="107497285" DateHigh="30585314"/>
+	<ValidationCacheItem File="F:\Documents\ENJMIN\Projet M1\axiome\wwise\Effects\Factory Effects.wwu" DateLow="107653541" DateHigh="30585314"/>
+	<ValidationCacheItem File="F:\Documents\ENJMIN\Projet M1\axiome\wwise\Events\Default Work Unit.wwu" DateLow="3155542302" DateHigh="30589580"/>
+	<ValidationCacheItem File="F:\Documents\ENJMIN\Projet M1\axiome\wwise\Game Parameters\Default Work Unit.wwu" DateLow="107653541" DateHigh="30585314"/>
+	<ValidationCacheItem File="F:\Documents\ENJMIN\Projet M1\axiome\wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="107653541" DateHigh="30585314"/>
+	<ValidationCacheItem File="F:\Documents\ENJMIN\Projet M1\axiome\wwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="107653541" DateHigh="30585314"/>
+	<ValidationCacheItem File="F:\Documents\ENJMIN\Projet M1\axiome\wwise\Mixing Sessions\Default Work Unit.wwu" DateLow="107809810" DateHigh="30585314"/>
+	<ValidationCacheItem File="F:\Documents\ENJMIN\Projet M1\axiome\wwise\Modulators\Default Work Unit.wwu" DateLow="107809810" DateHigh="30585314"/>
+	<ValidationCacheItem File="F:\Documents\ENJMIN\Projet M1\axiome\wwise\Presets\Default Work Unit.wwu" DateLow="107809810" DateHigh="30585314"/>
+	<ValidationCacheItem File="F:\Documents\ENJMIN\Projet M1\axiome\wwise\Queries\Default Work Unit.wwu" DateLow="107809810" DateHigh="30585314"/>
+	<ValidationCacheItem File="F:\Documents\ENJMIN\Projet M1\axiome\wwise\Queries\Factory Queries.wwu" DateLow="107966061" DateHigh="30585314"/>
+	<ValidationCacheItem File="F:\Documents\ENJMIN\Projet M1\axiome\wwise\SoundBanks\Default Work Unit.wwu" DateLow="3179288740" DateHigh="30589580"/>
+	<ValidationCacheItem File="F:\Documents\ENJMIN\Projet M1\axiome\wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="107966061" DateHigh="30585314"/>
+	<ValidationCacheItem File="F:\Documents\ENJMIN\Projet M1\axiome\wwise\States\Default Work Unit.wwu" DateLow="107966061" DateHigh="30585314"/>
+	<ValidationCacheItem File="F:\Documents\ENJMIN\Projet M1\axiome\wwise\Switches\Default Work Unit.wwu" DateLow="108122304" DateHigh="30585314"/>
+	<ValidationCacheItem File="F:\Documents\ENJMIN\Projet M1\axiome\wwise\Triggers\Default Work Unit.wwu" DateLow="108122304" DateHigh="30585314"/>
+</ValidationCache>
