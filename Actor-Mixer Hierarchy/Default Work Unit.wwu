@@ -4,6 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{638E502A-1946-483A-A0D7-1CCF431BEF94}" PersistMode="Standalone">
 			<ChildrenList>
 				<Sound Name="test mood axiome" ID="{936D43E5-EA1B-4747-B8DF-7F5BA45B3504}" ShortID="218142215" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
@@ -20,6 +27,413 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="test mood axiome" ID="{C1847DE1-69B1-4961-88F1-2F63891E8545}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="ambiance_evenements" ID="{24BC7B48-CA8D-46DA-8C65-D0B375FBEACD}" ShortID="955277999">
+					<PropertyList>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="enfantquijouent" ID="{96343D35-DF94-4518-96AE-9A6FF945748E}" ShortID="240883625" Type="SoundFX">
+							<PropertyList>
+								<Property Name="EnablePanner" Type="bool" Value="True"/>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>240</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="enfantquijouent" ID="{4072C047-B28D-47B8-91E6-CCEB2A3230A6}" ShortID="767507954">
+									<Language>SFX</Language>
+									<AudioFile>enfantquijouent.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{6E2CA338-EEF8-4C57-A251-1B96BAFDCF68}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="89.6130346232179"/>
+										<Property Name="PanY" Type="Real64" Value="64.3628509719222"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="enfantquijouent" ID="{4072C047-B28D-47B8-91E6-CCEB2A3230A6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="steps jardin_A1-Gain_01" ID="{A8317FEE-0F8A-48DF-86BB-7B71C98A87E8}" ShortID="556812709" Type="SoundFX">
+							<PropertyList>
+								<Property Name="EnablePanner" Type="bool" Value="True"/>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>140</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="steps jardin_A1-Gain_01" ID="{C087FFEC-17B0-4ECF-A37B-2A263AE3F253}" ShortID="808028374">
+									<Language>SFX</Language>
+									<AudioFile>steps jardin.A1-Gain_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{C8413651-65EC-43DD-922A-3E3FD4E0CD44}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="-19.1446028513238"/>
+										<Property Name="PanY" Type="Real64" Value="-100"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="steps jardin_A1-Gain_01" ID="{C087FFEC-17B0-4ECF-A37B-2A263AE3F253}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ouverture porte_A1-Gain_01" ID="{2264C0C4-0EC0-4872-A6CD-3C072F88EC80}" ShortID="440202861" Type="SoundFX">
+							<PropertyList>
+								<Property Name="EnablePanner" Type="bool" Value="True"/>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>160</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ouverture porte_A1-Gain_01" ID="{857C358D-ED0B-4329-97AC-29D37BDAD1DD}" ShortID="624493673">
+									<Language>SFX</Language>
+									<AudioFile>ouverture porte.A1-Gain_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{D4E745AA-7F3E-46BD-926E-C091E0A9E978}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="-93.6863543788187"/>
+										<Property Name="PanY" Type="Real64" Value="-71.9222462203024"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="ouverture porte_A1-Gain_01" ID="{857C358D-ED0B-4329-97AC-29D37BDAD1DD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="steps voisin_A1-Gain_01-02" ID="{C9FE618F-F980-42EE-8B06-FC254B7CB9D0}" ShortID="368691773" Type="SoundFX">
+							<PropertyList>
+								<Property Name="EnablePanner" Type="bool" Value="True"/>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="steps voisin_A1-Gain_01-02" ID="{0A2FF1F2-497F-4CD8-B234-508386D85324}" ShortID="840055875">
+									<PropertyList>
+										<Property Name="TrimEnd" Type="Real64" Value="8.80580357142857"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>steps voisin.A1-Gain_01-02.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{9B496E4E-9779-47AE-90F7-C920E04B1FF9}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="-95.3156822810591"/>
+										<Property Name="PanY" Type="Real64" Value="-27.4298056155507"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="steps voisin_A1-Gain_01-02" ID="{0A2FF1F2-497F-4CD8-B234-508386D85324}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="télé_A1-Gain_01" ID="{26C21022-590E-4C2F-9285-5AD48C1C43D3}" ShortID="42514504" Type="SoundFX">
+							<PropertyList>
+								<Property Name="EnablePanner" Type="bool" Value="True"/>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>160</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>-23</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="télé_A1-Gain_01" ID="{7C88BC52-5ED5-4467-B6A8-C046C2405E56}" ShortID="234468859">
+									<Language>SFX</Language>
+									<AudioFile>télé.A1-Gain_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{A6B91206-189F-4A6A-9F29-7986B20A411B}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="-96.1303462321792"/>
+										<Property Name="PanY" Type="Real64" Value="-95.8963282937365"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="télé_A1-Gain_01" ID="{7C88BC52-5ED5-4467-B6A8-C046C2405E56}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="enfantquijouent" ID="{96343D35-DF94-4518-96AE-9A6FF945748E}"/>
+						<ItemRef Name="steps jardin_A1-Gain_01" ID="{A8317FEE-0F8A-48DF-86BB-7B71C98A87E8}"/>
+						<ItemRef Name="ouverture porte_A1-Gain_01" ID="{2264C0C4-0EC0-4872-A6CD-3C072F88EC80}"/>
+						<ItemRef Name="steps voisin_A1-Gain_01-02" ID="{C9FE618F-F980-42EE-8B06-FC254B7CB9D0}"/>
+						<ItemRef Name="télé_A1-Gain_01" ID="{26C21022-590E-4C2F-9285-5AD48C1C43D3}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+				<Folder Name="ambiance_constante" ID="{A01866F7-FC6A-481E-8E9E-A0A28A5C14CE}" ShortID="840870651">
+					<ChildrenList>
+						<Sound Name="room tone_A1-Gain_01" ID="{B4291D3A-37DB-4CA4-BA04-6AF400CF9767}" ShortID="871564394" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="room tone_A1-Gain_01" ID="{98CA5AF5-EA95-4DB7-907D-F361784B83EC}" ShortID="920722745">
+									<Language>SFX</Language>
+									<AudioFile>room tone.A1-Gain_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="room tone_A1-Gain_01" ID="{98CA5AF5-EA95-4DB7-907D-F361784B83EC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="amb jardin-01_A1-EQ37B_01-01" ID="{180F7C63-3F54-412E-93CF-6455668952E1}" ShortID="819690704" Type="SoundFX">
+							<PropertyList>
+								<Property Name="EnablePanner" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb jardin-01_A1-EQ37B_01-01" ID="{4C104B73-EAE8-4D02-A84C-DC81037D7835}" ShortID="321125832">
+									<Language>SFX</Language>
+									<AudioFile>amb jardin-01.A1-EQ37B_01-01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{F1054321-5937-475D-BABC-A9F497648503}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="100"/>
+										<Property Name="PanY" Type="Real64" Value="-27.645788336933"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="amb jardin-01_A1-EQ37B_01-01" ID="{4C104B73-EAE8-4D02-A84C-DC81037D7835}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="amb jardin-01_A1-EQ37B_01-01 - Copie" ID="{3EFDC1EA-F989-4CE4-A241-A2AA36684C7B}" ShortID="75365635" Type="SoundFX">
+							<PropertyList>
+								<Property Name="EnablePanner" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb jardin-01_A1-EQ37B_01-01 - Copie" ID="{AAA6FAA0-941D-4FCD-B49F-1CF52F098C7D}" ShortID="295192347">
+									<Language>SFX</Language>
+									<AudioFile>amb jardin-01.A1-EQ37B_01-01 - Copie.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{CF0A0A06-6D49-4EE6-817A-52F7B2AB8F1B}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="-100"/>
+										<Property Name="PanY" Type="Real64" Value="-4.75161987041037"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="amb jardin-01_A1-EQ37B_01-01 - Copie" ID="{AAA6FAA0-941D-4FCD-B49F-1CF52F098C7D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="voitures" ID="{AD56133F-1FD8-46C0-A2F6-8CE2646F548A}" ShortID="77852830" Type="SoundFX">
+							<PropertyList>
+								<Property Name="EnablePanner" Type="bool" Value="True"/>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Audio 2_04" ID="{D241E540-4BB9-4E24-A540-EF4A37E4EC2B}" ShortID="744114310">
+									<Language>SFX</Language>
+									<AudioFile>Audio 2_04.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{CA995427-EEAC-4CDD-8389-9039B1A245CD}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="-98.9816700610998"/>
+										<Property Name="PanY" Type="Real64" Value="-77.7537796976242"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="Audio 2_04" ID="{D241E540-4BB9-4E24-A540-EF4A37E4EC2B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="tableau" ID="{0D1D5996-CA5E-4EA3-8649-494D78A6B37A}" ShortID="49671535"/>
+				<Sound Name="voitures_A1-Gain_01" ID="{61EBEB14-7E22-454E-BC6A-5D72C4E9CEAA}" ShortID="343846905" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="voitures_A1-Gain_01" ID="{F64CDDBB-8A09-4603-B5EA-E51CEB4A7F47}" ShortID="206747445">
+							<Language>SFX</Language>
+							<AudioFile>voitures.A1-Gain_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="voitures_A1-Gain_01" ID="{F64CDDBB-8A09-4603-B5EA-E51CEB4A7F47}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

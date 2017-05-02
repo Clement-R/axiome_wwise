@@ -3,7 +3,26 @@
 	<Busses>
 		<WorkUnit Name="Default Work Unit" ID="{6F60C9F3-3765-4009-AF8E-93101277CF57}" PersistMode="Standalone">
 			<ChildrenList>
-				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="BusVolume" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Microsoft HRTF (Custom)" ID="{534D8998-087C-475B-AD6B-210871C9FECB}" ShortID="853215741" PluginName="Microsoft HRTF" CompanyID="0" PluginID="170" PluginType="3">
+									<PropertyList>
+										<Property Name="RoomSize" Type="int32" Value="0"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
+						</Reference>
+					</ReferenceList>
+				</Bus>
 				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}"/>
 				<MotionBus Name="Master Motion Bus" ID="{20A630BA-3398-4676-B927-1004DFE41FD8}"/>
 			</ChildrenList>

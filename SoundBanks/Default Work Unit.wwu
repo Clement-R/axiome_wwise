@@ -6,6 +6,7 @@
 				<SoundBank Name="SoundBank" ID="{A362AFD5-13FC-484B-B142-A7E9A666912D}">
 					<ObjectInclusionList>
 						<ObjectRef Name="test mood axiome" ID="{936D43E5-EA1B-4747-B8DF-7F5BA45B3504}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Default Work Unit" ID="{638E502A-1946-483A-A0D7-1CCF431BEF94}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="mood_test" ID="{4D19EBDF-3491-4E8F-B181-69236D7C58DD}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
