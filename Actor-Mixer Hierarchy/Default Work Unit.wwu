@@ -384,10 +384,6 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Audio 2_04" ID="{D241E540-4BB9-4E24-A540-EF4A37E4EC2B}" ShortID="744114310">
-									<Language>SFX</Language>
-									<AudioFile>Audio 2_04.wav</AudioFile>
-								</AudioFileSource>
 								<AudioFileSource Name="voiture ambience" ID="{0372B6BC-380C-4D1A-8901-1E672D40031A}" ShortID="1071077615">
 									<Language>SFX</Language>
 									<AudioFile>voiture ambience.wav</AudioFile>
@@ -402,7 +398,7 @@
 								</Panner>
 							</PositioningInfo>
 							<ActiveSourceList>
-								<ActiveSource Name="Audio 2_04" ID="{D241E540-4BB9-4E24-A540-EF4A37E4EC2B}" Platform="Linked"/>
+								<ActiveSource Name="voiture ambience" ID="{0372B6BC-380C-4D1A-8901-1E672D40031A}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
