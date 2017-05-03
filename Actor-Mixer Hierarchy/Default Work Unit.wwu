@@ -260,7 +260,47 @@
 						<ItemRef Name="télé_A1-Gain_01" ID="{26C21022-590E-4C2F-9285-5AD48C1C43D3}"/>
 					</Playlist>
 				</RandomSequenceContainer>
-				<Folder Name="ambiance_constante" ID="{A01866F7-FC6A-481E-8E9E-A0A28A5C14CE}" ShortID="840870651">
+				<Sound Name="voitures_A1-Gain_01" ID="{61EBEB14-7E22-454E-BC6A-5D72C4E9CEAA}" ShortID="343846905" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="voitures_A1-Gain_01" ID="{F64CDDBB-8A09-4603-B5EA-E51CEB4A7F47}" ShortID="206747445">
+							<Language>SFX</Language>
+							<AudioFile>voitures.A1-Gain_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="voitures_A1-Gain_01" ID="{F64CDDBB-8A09-4603-B5EA-E51CEB4A7F47}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<ActorMixer Name="amb const" ID="{AF1495A1-B5C5-4FA1-B25D-AD50D8985B3C}" ShortID="504097191">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+						</Reference>
+					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="room tone_A1-Gain_01" ID="{B4291D3A-37DB-4CA4-BA04-6AF400CF9767}" ShortID="871564394" Type="SoundFX">
 							<PropertyList>
@@ -364,6 +404,11 @@
 						<Sound Name="voitures" ID="{AD56133F-1FD8-46C0-A2F6-8CE2646F548A}" ShortID="77852830" Type="SoundFX">
 							<PropertyList>
 								<Property Name="EnablePanner" Type="bool" Value="True"/>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
 								<Property Name="OutputBusVolume" Type="Real64">
 									<ValueList>
 										<Value>-5</Value>
@@ -402,22 +447,8 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
-				</Folder>
-				<Folder Name="tableau" ID="{0D1D5996-CA5E-4EA3-8649-494D78A6B37A}" ShortID="49671535"/>
-				<Sound Name="voitures_A1-Gain_01" ID="{61EBEB14-7E22-454E-BC6A-5D72C4E9CEAA}" ShortID="343846905" Type="SoundFX">
-					<PropertyList>
-						<Property Name="Inclusion" Type="bool">
-							<ValueList>
-								<Value>False</Value>
-							</ValueList>
-						</Property>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="OutputBusVolume" Type="Real64">
-							<ValueList>
-								<Value>3</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
+				</ActorMixer>
+				<ActorMixer Name="tableau prog" ID="{375E0D1E-33A7-4E83-94F1-A927BABC9138}" ShortID="345581526">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
@@ -426,16 +457,7 @@
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
 						</Reference>
 					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="voitures_A1-Gain_01" ID="{F64CDDBB-8A09-4603-B5EA-E51CEB4A7F47}" ShortID="206747445">
-							<Language>SFX</Language>
-							<AudioFile>voitures.A1-Gain_01.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="voitures_A1-Gain_01" ID="{F64CDDBB-8A09-4603-B5EA-E51CEB4A7F47}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
