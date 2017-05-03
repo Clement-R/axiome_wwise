@@ -388,6 +388,10 @@
 									<Language>SFX</Language>
 									<AudioFile>Audio 2_04.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="voiture ambience" ID="{0372B6BC-380C-4D1A-8901-1E672D40031A}" ShortID="1071077615">
+									<Language>SFX</Language>
+									<AudioFile>voiture ambience.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<PositioningInfo>
 								<Panner Name="" ID="{CA995427-EEAC-4CDD-8389-9039B1A245CD}">

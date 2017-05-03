@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="75">
-	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="28268544" DateHigh="30585961"/>
-	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Attenuations\Default Work Unit.wwu" DateLow="28268544" DateHigh="30585961"/>
-	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Audio Devices\Default Work Unit.wwu" DateLow="28268544" DateHigh="30585961"/>
-	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\axiome_WwiseProject.crossover.wsettings" DateLow="2657838080" DateHigh="30589770"/>
-	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\axiome_WwiseProject.wproj" DateLow="2236657024" DateHigh="30589581"/>
-	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="28268544" DateHigh="30585961"/>
-	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Conversion Settings\Default Work Unit.wwu" DateLow="28268544" DateHigh="30585961"/>
-	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="28268544" DateHigh="30585961"/>
-	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="28268544" DateHigh="30585961"/>
-	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Effects\Default Work Unit.wwu" DateLow="28268544" DateHigh="30585961"/>
-	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Effects\Factory Effects.wwu" DateLow="28268544" DateHigh="30585961"/>
-	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Events\Default Work Unit.wwu" DateLow="28268544" DateHigh="30585961"/>
-	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Game Parameters\Default Work Unit.wwu" DateLow="28268544" DateHigh="30585961"/>
-	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="48268544" DateHigh="30585961"/>
-	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="48268544" DateHigh="30585961"/>
-	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Mixing Sessions\Default Work Unit.wwu" DateLow="48268544" DateHigh="30585961"/>
-	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Modulators\Default Work Unit.wwu" DateLow="48268544" DateHigh="30585961"/>
-	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Presets\Default Work Unit.wwu" DateLow="58268544" DateHigh="30585961"/>
-	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Queries\Default Work Unit.wwu" DateLow="58268544" DateHigh="30585961"/>
-	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Queries\Factory Queries.wwu" DateLow="58268544" DateHigh="30585961"/>
-	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\SoundBanks\Default Work Unit.wwu" DateLow="58268544" DateHigh="30585961"/>
-	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="58268544" DateHigh="30585961"/>
-	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\States\Default Work Unit.wwu" DateLow="58268544" DateHigh="30585961"/>
-	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Switches\Default Work Unit.wwu" DateLow="58268544" DateHigh="30585961"/>
-	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Triggers\Default Work Unit.wwu" DateLow="58268544" DateHigh="30585961"/>
+	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1630258176" DateHigh="30589844"/>
+	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Attenuations\Default Work Unit.wwu" DateLow="2359146240" DateHigh="30589810"/>
+	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Audio Devices\Default Work Unit.wwu" DateLow="2359146240" DateHigh="30589810"/>
+	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\axiome_WwiseProject.crossover.wsettings" DateLow="1164378880" DateHigh="30589970"/>
+	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\axiome_WwiseProject.wproj" DateLow="2359146240" DateHigh="30589810"/>
+	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="2359146240" DateHigh="30589810"/>
+	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Conversion Settings\Default Work Unit.wwu" DateLow="2359146240" DateHigh="30589810"/>
+	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="2359146240" DateHigh="30589810"/>
+	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="2359146240" DateHigh="30589810"/>
+	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Effects\Default Work Unit.wwu" DateLow="2359146240" DateHigh="30589810"/>
+	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Effects\Factory Effects.wwu" DateLow="2359146240" DateHigh="30589810"/>
+	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Events\Default Work Unit.wwu" DateLow="2245225472" DateHigh="30589843"/>
+	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Game Parameters\Default Work Unit.wwu" DateLow="2359146240" DateHigh="30589810"/>
+	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="2359146240" DateHigh="30589810"/>
+	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2245225472" DateHigh="30589843"/>
+	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Mixing Sessions\Default Work Unit.wwu" DateLow="2359146240" DateHigh="30589810"/>
+	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Modulators\Default Work Unit.wwu" DateLow="2359146240" DateHigh="30589810"/>
+	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Presets\Default Work Unit.wwu" DateLow="2359146240" DateHigh="30589810"/>
+	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Queries\Default Work Unit.wwu" DateLow="2359146240" DateHigh="30589810"/>
+	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Queries\Factory Queries.wwu" DateLow="2359146240" DateHigh="30589810"/>
+	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\SoundBanks\Default Work Unit.wwu" DateLow="2554636800" DateHigh="30589825"/>
+	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="2245225472" DateHigh="30589843"/>
+	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\States\Default Work Unit.wwu" DateLow="2359146240" DateHigh="30589810"/>
+	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Switches\Default Work Unit.wwu" DateLow="2359146240" DateHigh="30589810"/>
+	<ValidationCacheItem File="Y:\Desktop\axiome_wwise\Triggers\Default Work Unit.wwu" DateLow="2359146240" DateHigh="30589810"/>
 </ValidationCache>
