@@ -3,17 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{9A008EA6-78AA-4382-B22A-A38632770768}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="mood_test" ID="{4D19EBDF-3491-4E8F-B181-69236D7C58DD}">
-					<ChildrenList>
-						<Action Name="Play" ID="{7021BF7F-03A4-4278-BA17-102BA60FAB54}" ShortID="135686855" Type="Play" Scope="One" Global="false">
-							<ElementList>
-								<Element ID="{680A7A2D-F83E-4BD4-9FA2-BB31C400713B}" Global="false">
-									<ObjectRef Name="test mood axiome" ID="{936D43E5-EA1B-4747-B8DF-7F5BA45B3504}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
-								</Element>
-							</ElementList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="ambiance" ID="{D70A0C9E-311C-48A7-987D-36A1D695B7B3}">
 					<ChildrenList>
 						<Action Name="Play" ID="{49519193-2B68-4673-B9E2-70D9DB44D25B}" ShortID="475245355" Type="Play" Scope="One" Global="false">
@@ -53,9 +42,125 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="progression" ID="{274F99C3-AFD4-48FC-95BE-2F9061D97F6B}">
+				<Event Name="Tableau_progression" ID="{274F99C3-AFD4-48FC-95BE-2F9061D97F6B}">
 					<ChildrenList>
-						<Action Name="Play" ID="{B469963C-D390-4DEA-85E0-9C3ACF62F813}" ShortID="411626825" Type="Play" Scope="One" Global="false"/>
+						<Action Name="Play" ID="{B469963C-D390-4DEA-85E0-9C3ACF62F813}" ShortID="411626825" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{0E242292-7F38-4FBE-A629-F89F25879A1A}" Global="false">
+									<ObjectRef Name="unlock tableau" ID="{D86EBEE2-6EF2-4BE2-9F51-511EB4E58B76}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_albumEnfantMort_1" ID="{A23F47BC-E320-4294-9B03-12CA5F5CB1F2}">
+					<ChildrenList>
+						<Action Name="Play" ID="{DFD0DA27-1221-4B54-8D6B-50263FF1608D}" ShortID="302056366" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{BA91F04B-A566-4193-B884-2B5FCC6066A2}" Global="false">
+									<ObjectRef Name="albumEnfantMort_1" ID="{4A1ADFBF-9BBE-4DBB-BA4B-ED4CE087BD18}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_albumEnfantMort_2" ID="{72BBC1D0-E64D-44A9-A8A6-AB59C3F01F4E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{2D2D7CC1-5116-4E40-A652-BFF087C7DF62}" ShortID="185548479" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{779653A3-3575-4524-8B6A-7C2212E52167}" Global="false">
+									<ObjectRef Name="albumEnfantMort_2" ID="{95C6B49E-3F2B-48C4-B337-CDFFB80F30DE}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_albumEnfantMort_5" ID="{624F67C4-72E9-4BA3-9F14-299C2FBDAAAE}">
+					<ChildrenList>
+						<Action Name="Play" ID="{5ED528F5-6411-47D8-8BB8-D44468A62425}" ShortID="54815490" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{5549DCA0-9371-4F8A-B820-33EC0C031EF7}" Global="false">
+									<ObjectRef Name="albumEnfantMort_5" ID="{373F9E3D-A533-4E21-80F5-02E277284BEF}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_albumEnfantMort_8" ID="{16068A10-3CA3-4409-A9F6-7475A8FBDB6E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{CD530E4C-143E-4451-AB97-D56AD18002C1}" ShortID="206096840" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{8CD1D6C8-2248-4FFF-9EDD-DA4EAD555D69}" Global="false">
+									<ObjectRef Name="albumEnfantMort_8" ID="{80338C35-5F17-4B8D-8812-82A8A24D717D}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_albumEnfantMort_11" ID="{F767DA23-3DDC-4302-A3E5-9E5727414C6E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{020AB8F6-FBB1-4EB7-BE9E-89A478577F08}" ShortID="785050574" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{CF3BAB4D-203E-4291-867C-0D63C05BDCAF}" Global="false">
+									<ObjectRef Name="albumEnfantMort_11" ID="{66FC52AE-A871-4683-96B4-56FE9769D683}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_albumGrandMere_2" ID="{22075784-7BAE-4CCB-8B61-FE8AE6E73D4A}">
+					<ChildrenList>
+						<Action Name="Play" ID="{DE32D7C1-F3B8-4EE9-A492-A74D851D790A}" ShortID="272036728" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{91B33E80-0DEA-4B3A-9A2F-508C7B0EDAB9}" Global="false">
+									<ObjectRef Name="albumGrandMere_2" ID="{5C739375-3FD6-4E68-B8C2-28C05C226DD8}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_albumGrandMere_6" ID="{25105A2C-5AC4-4245-8218-10E27434DD3B}">
+					<ChildrenList>
+						<Action Name="Play" ID="{77B7365E-B164-43FA-B9CF-ADE58F7BEC63}" ShortID="999344362" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C23A4D81-FE07-4FF0-8830-86789C3DF8D7}" Global="false">
+									<ObjectRef Name="albumGrandMere_6" ID="{FDD9E099-2898-4F4B-839D-E64258117A01}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_albumGrandMere_9" ID="{2FB2DEB6-6D6A-46C1-B707-39696A88F160}">
+					<ChildrenList>
+						<Action Name="Play" ID="{478B1CB3-01C4-4C78-B6A2-AA94CC239058}" ShortID="735097041" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{801244C4-6073-4483-984B-CEA57FC36FFD}" Global="false">
+									<ObjectRef Name="albumGrandMere_9" ID="{F0F68457-A62B-475D-B1C7-583C2643B944}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_albumGrandMere_13" ID="{82531DE0-FF79-43C9-90DD-CBD9F7FCF725}">
+					<ChildrenList>
+						<Action Name="Play" ID="{8FDC01E4-6ABA-4F42-8473-C6A7CEE67FC7}" ShortID="237624380" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C914A832-22A7-41B1-9BC9-B58BD04DAE8D}" Global="false">
+									<ObjectRef Name="albumGrandMere_13" ID="{20F37D7F-09BC-42A1-BAB6-17617324BD58}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_albumGrandMere_4" ID="{B59411E1-5801-4A68-8A48-394D23EF826C}">
+					<ChildrenList>
+						<Action Name="Play" ID="{8E123494-74BA-4AC5-BCE5-AE47EFB18707}" ShortID="472001695" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E90296EB-B7CB-48B9-A63D-3FC10DA62705}" Global="false">
+									<ObjectRef Name="albumGrandMere_4" ID="{226C1D1B-D02C-4057-9C05-EF8B6E2A5C3B}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
+								</Element>
+							</ElementList>
+						</Action>
 					</ChildrenList>
 				</Event>
 			</ChildrenList>

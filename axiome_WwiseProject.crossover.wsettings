@@ -18,10 +18,10 @@
 					</ValueList>
 				</Property>
 				<Property Name="General\LatestLanguage" Type="int32" Value="12"/>
-				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
-				<Property Name="GenerateSoundBanks\SelectedLanguages" Type="string" Value=""/>
-				<Property Name="GenerateSoundBanks\SelectedPlatforms" Type="string" Value=""/>
-				<Property Name="GenerateSoundBanks\SelectedSoundBanks" Type="string" Value=""/>
+				<Property Name="General\LatestPlatform" Type="string" Value="Mac"/>
+				<Property Name="GenerateSoundBanks\SelectedLanguages" Type="string" Value="DAAAAA=="/>
+				<Property Name="GenerateSoundBanks\SelectedPlatforms" Type="string" Value="gaMC+NcIYU2XrI0cBFvfBf9XCtj1IThKkAlv01YxJNU="/>
+				<Property Name="GenerateSoundBanks\SelectedSoundBanks" Type="string" Value="1a9io/wTS0ixQqfppmaRLQ=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
@@ -29,6 +29,7 @@
 				<Property Name="MonitoringManager\WatchMgr\GameSyncWatches" Type="string" Value=""/>
 				<Property Name="MonitoringManager\WatchMgr\Watches" Type="string" Value=""/>
 				<Property Name="MonitoringManager\WatchMgr\WatchesVersion" Type="int32" Value="5"/>
+				<Property Name="Motion\UserAcknowledge" Type="bool" Value="True"/>
 				<Property Name="ProjectExplorer\Expanded_10_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\Expanded_11_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\Expanded_12_1" Type="string" Value=""/>
@@ -39,10 +40,10 @@
 				<Property Name="ProjectExplorer\Expanded_17_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\Expanded_18_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\Expanded_19_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\Expanded_1_1" Type="string" Value="88lgb2U3CUCvjpMQEnfPVw=="/>
+				<Property Name="ProjectExplorer\Expanded_1_1" Type="string" Value="88lgb2U3CUCvjpMQEnfPV9ikFBWmHSpBoX51ygwhSfM="/>
 				<Property Name="ProjectExplorer\Expanded_20_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\Expanded_2_1" Type="string" Value="SHu8JI3K2kaMZdCzdfvqzfdmGKBq/B5Ijp6goopcFM4qUI5jRhk6SKDXHM9DG++UoZUUr8W1oU+yXa1Q2JhbPA=="/>
-				<Property Name="ProjectExplorer\Expanded_3_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\Expanded_2_1" Type="string" Value="SHu8JI3K2kaMZdCzdfvqzSpQjmNGGTpIoNccz0Mb75QeDV43pzODTpTxqSe6vJE4oZUUr8W1oU+yXa1Q2JhbPA=="/>
+				<Property Name="ProjectExplorer\Expanded_3_1" Type="string" Value="po4Amqp4gkOyKqOGMncHaA=="/>
 				<Property Name="ProjectExplorer\Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\Expanded_5_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\Expanded_6_1" Type="string" Value=""/>
@@ -55,7 +56,7 @@
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_6_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>
 				<Property Name="ProjectExplorer\FirstVisible_8_1" Type="string" Value="{41093F77-829F-4D88-8601-E8B25F3D4781}"/>
-				<Property Name="SoundBank Manager\Expand States" Type="string" Value=""/>
+				<Property Name="SoundBank Manager\Expand States" Type="string" Value="FEBlayL1vk2XnDH7qndMOw=="/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>

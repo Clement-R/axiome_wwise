@@ -45,14 +45,11 @@
 					<ChildrenList>
 						<Sound Name="enfantquijouent" ID="{96343D35-DF94-4518-96AE-9A6FF945748E}" ShortID="240883625" Type="SoundFX">
 							<PropertyList>
+								<Property Name="3DPositionSource" Type="int16" Value="0"/>
 								<Property Name="EnablePanner" Type="bool" Value="True"/>
-								<Property Name="InitialDelay" Type="Real64">
-									<ValueList>
-										<Value>240</Value>
-									</ValueList>
-								</Property>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -71,10 +68,33 @@
 							<PositioningInfo>
 								<Panner Name="" ID="{6E2CA338-EEF8-4C57-A251-1B96BAFDCF68}">
 									<PropertyList>
-										<Property Name="PanX" Type="Real64" Value="89.6130346232179"/>
-										<Property Name="PanY" Type="Real64" Value="64.3628509719222"/>
+										<Property Name="PanX" Type="Real64" Value="1.0358803146007"/>
+										<Property Name="PanY" Type="Real64" Value="100"/>
 									</PropertyList>
 								</Panner>
+								<Position Name="" ID="{C53112D5-DB49-4D36-8148-0577760F2EC3}">
+									<ChildrenList>
+										<Path2D Name="enfantquijouent_Path" ID="{C0EF9153-897F-4EB5-B774-B888C223A821}">
+											<PropertyList>
+												<Property Name="Duration" Type="int32" Value="25000"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>-98.73418</XPos>
+													<YPos>32.1656</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>-71.51899</XPos>
+													<YPos>-100</YPos>
+													<Flags>0</Flags>
+													<Time>25000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
 							</PositioningInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="enfantquijouent" ID="{4072C047-B28D-47B8-91E6-CCEB2A3230A6}" Platform="Linked"/>
@@ -82,6 +102,7 @@
 						</Sound>
 						<Sound Name="steps jardin_A1-Gain_01" ID="{A8317FEE-0F8A-48DF-86BB-7B71C98A87E8}" ShortID="556812709" Type="SoundFX">
 							<PropertyList>
+								<Property Name="3DPositionSource" Type="int16" Value="0"/>
 								<Property Name="EnablePanner" Type="bool" Value="True"/>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
@@ -95,6 +116,7 @@
 								</Property>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -117,6 +139,26 @@
 										<Property Name="PanY" Type="Real64" Value="-100"/>
 									</PropertyList>
 								</Panner>
+								<Position Name="" ID="{86199EF5-0ADC-4AFD-9AE8-9B5CF4AF3D03}">
+									<ChildrenList>
+										<Path2D Name="steps jardin_A1-Gain_01_Path" ID="{E57C697A-ADA7-4981-9BDD-0E10A3E4777F}">
+											<PointList>
+												<Point>
+													<XPos>-27.8481</XPos>
+													<YPos>-84.3949</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>-91.77215</XPos>
+													<YPos>-73.24841</YPos>
+													<Flags>0</Flags>
+													<Time>5000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
 							</PositioningInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="steps jardin_A1-Gain_01" ID="{C087FFEC-17B0-4ECF-A37B-2A263AE3F253}" Platform="Linked"/>
@@ -124,6 +166,7 @@
 						</Sound>
 						<Sound Name="ouverture porte_A1-Gain_01" ID="{2264C0C4-0EC0-4872-A6CD-3C072F88EC80}" ShortID="440202861" Type="SoundFX">
 							<PropertyList>
+								<Property Name="3DPositionSource" Type="int16" Value="0"/>
 								<Property Name="EnablePanner" Type="bool" Value="True"/>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
@@ -137,6 +180,7 @@
 								</Property>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -159,6 +203,26 @@
 										<Property Name="PanY" Type="Real64" Value="-71.9222462203024"/>
 									</PropertyList>
 								</Panner>
+								<Position Name="" ID="{D8DAD70A-7AAD-4290-A58B-364815B353E9}">
+									<ChildrenList>
+										<Path2D Name="ouverture porte_A1-Gain_01_Path" ID="{0228B7AC-7624-4FFA-BA51-E6AD1482F882}">
+											<PointList>
+												<Point>
+													<XPos>100</XPos>
+													<YPos>-70.38217</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>88.60759</XPos>
+													<YPos>-86.6242</YPos>
+													<Flags>0</Flags>
+													<Time>5000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
 							</PositioningInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="ouverture porte_A1-Gain_01" ID="{857C358D-ED0B-4329-97AC-29D37BDAD1DD}" Platform="Linked"/>
@@ -166,6 +230,7 @@
 						</Sound>
 						<Sound Name="steps voisin_A1-Gain_01-02" ID="{C9FE618F-F980-42EE-8B06-FC254B7CB9D0}" ShortID="368691773" Type="SoundFX">
 							<PropertyList>
+								<Property Name="3DPositionSource" Type="int16" Value="0"/>
 								<Property Name="EnablePanner" Type="bool" Value="True"/>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
@@ -179,6 +244,7 @@
 								</Property>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -204,6 +270,26 @@
 										<Property Name="PanY" Type="Real64" Value="-27.4298056155507"/>
 									</PropertyList>
 								</Panner>
+								<Position Name="" ID="{1103C3E7-0495-4A1A-AFA4-A5B749ECC418}">
+									<ChildrenList>
+										<Path2D Name="steps voisin_A1-Gain_01-02_Path" ID="{BC145176-4E89-40D0-AE92-3CFD1330870B}">
+											<PointList>
+												<Point>
+													<XPos>-86.07595</XPos>
+													<YPos>-58.9172</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>-89.24051</XPos>
+													<YPos>11.46497</YPos>
+													<Flags>0</Flags>
+													<Time>5000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
 							</PositioningInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="steps voisin_A1-Gain_01-02" ID="{0A2FF1F2-497F-4CD8-B234-508386D85324}" Platform="Linked"/>
@@ -211,6 +297,7 @@
 						</Sound>
 						<Sound Name="télé_A1-Gain_01" ID="{26C21022-590E-4C2F-9285-5AD48C1C43D3}" ShortID="42514504" Type="SoundFX">
 							<PropertyList>
+								<Property Name="3DPositionSource" Type="int16" Value="0"/>
 								<Property Name="EnablePanner" Type="bool" Value="True"/>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
@@ -224,6 +311,7 @@
 								</Property>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -246,6 +334,7 @@
 										<Property Name="PanY" Type="Real64" Value="-95.8963282937365"/>
 									</PropertyList>
 								</Panner>
+								<Position Name="" ID="{2CF424BD-3B69-42AD-96CD-E561B897277C}"/>
 							</PositioningInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="télé_A1-Gain_01" ID="{7C88BC52-5ED5-4467-B6A8-C046C2405E56}" Platform="Linked"/>
@@ -331,11 +420,18 @@
 						</Sound>
 						<Sound Name="amb jardin-01_A1-EQ37B_01-01" ID="{180F7C63-3F54-412E-93CF-6455668952E1}" ShortID="819690704" Type="SoundFX">
 							<PropertyList>
+								<Property Name="3DPositionSource" Type="int16" Value="0"/>
 								<Property Name="EnablePanner" Type="bool" Value="True"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OutputBusVolume" Type="Real64">
 									<ValueList>
 										<Value>9</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -360,6 +456,20 @@
 										<Property Name="PanY" Type="Real64" Value="-27.645788336933"/>
 									</PropertyList>
 								</Panner>
+								<Position Name="" ID="{386F3E98-CB1E-4906-B3EF-AA862A5DA5EB}">
+									<ChildrenList>
+										<Path2D Name="amb jardin-01_A1-EQ37B_01-01_Path" ID="{3389AD09-6690-49A3-87E6-AD569DD46B61}">
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>50</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
 							</PositioningInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="amb jardin-01_A1-EQ37B_01-01" ID="{4C104B73-EAE8-4D02-A84C-DC81037D7835}" Platform="Linked"/>
@@ -374,13 +484,20 @@
 										<Value>-7</Value>
 									</ValueList>
 								</Property>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+									<ObjectRef Name="Centre" ID="{5B950D8B-56B8-4B64-91BF-FE7E11D4467F}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -416,7 +533,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>3</Value>
+										<Value>-16</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -457,6 +574,130 @@
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="unlock tableau" ID="{D86EBEE2-6EF2-4BE2-9F51-511EB4E58B76}" ShortID="158207986">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="animations" ID="{C4B3B531-CE07-4B62-B90E-E9A3A701B0A4}" ShortID="68941603">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="albumEnfantMort_2" ID="{95C6B49E-3F2B-48C4-B337-CDFFB80F30DE}" ShortID="881925748" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+						<Sound Name="albumEnfantMort_1" ID="{4A1ADFBF-9BBE-4DBB-BA4B-ED4CE087BD18}" ShortID="808520310" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+						<Sound Name="albumEnfantMort_5" ID="{373F9E3D-A533-4E21-80F5-02E277284BEF}" ShortID="124483945" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+						<Sound Name="albumEnfantMort_8" ID="{80338C35-5F17-4B8D-8812-82A8A24D717D}" ShortID="258069366" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+						<Sound Name="albumEnfantMort_11" ID="{66FC52AE-A871-4683-96B4-56FE9769D683}" ShortID="50863607" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+						<Sound Name="albumGrandMere_2" ID="{5C739375-3FD6-4E68-B8C2-28C05C226DD8}" ShortID="883513129" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+						<Sound Name="albumGrandMere_6" ID="{FDD9E099-2898-4F4B-839D-E64258117A01}" ShortID="866050396" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+						<Sound Name="albumGrandMere_9" ID="{F0F68457-A62B-475D-B1C7-583C2643B944}" ShortID="127413924" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+						<Sound Name="albumGrandMere_13" ID="{20F37D7F-09BC-42A1-BAB6-17617324BD58}" ShortID="487257013" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+						<Sound Name="albumGrandMere_4" ID="{226C1D1B-D02C-4057-9C05-EF8B6E2A5C3B}" ShortID="72105552" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
