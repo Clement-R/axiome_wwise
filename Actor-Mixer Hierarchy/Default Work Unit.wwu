@@ -584,6 +584,103 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="tableau prog1" ID="{8CD464C6-E4A2-4C2A-BD0B-10C4E189750D}" ShortID="974721595" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="tableau prog1" ID="{F6FDB172-AB9D-4EFF-B268-032DFC72F59A}" ShortID="145230100">
+											<Language>SFX</Language>
+											<AudioFile>tableau prog1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="tableau prog1" ID="{F6FDB172-AB9D-4EFF-B268-032DFC72F59A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="tableau prog2" ID="{4FD86027-A6AF-432A-A9C0-80E61179B523}" ShortID="22453973" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="tableau prog2" ID="{4AE8F541-76BC-4D36-9E0B-BB65DA63A0BF}" ShortID="211697230">
+											<Language>SFX</Language>
+											<AudioFile>tableau prog2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="tableau prog2" ID="{4AE8F541-76BC-4D36-9E0B-BB65DA63A0BF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="tableau prog3" ID="{66AFD0D0-E64B-4406-B15D-468ED6A7A4D0}" ShortID="538041501" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="tableau prog3" ID="{57AEED80-F888-432A-9AFF-642525C44A5A}" ShortID="613938861">
+											<Language>SFX</Language>
+											<AudioFile>tableau prog3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="tableau prog3" ID="{57AEED80-F888-432A-9AFF-642525C44A5A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="tableau prog4" ID="{626DB285-A420-41D5-813E-6BCF91A00FC0}" ShortID="317654001" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="tableau prog4" ID="{B5399C53-59A0-488C-B030-F78ECCC2F833}" ShortID="382463928">
+											<Language>SFX</Language>
+											<AudioFile>tableau prog4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="tableau prog4" ID="{B5399C53-59A0-488C-B030-F78ECCC2F833}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="tableau prog5" ID="{429B277C-C9E2-4F61-9C31-5E4F22613414}" ShortID="1202899" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="tableau prog5" ID="{EC50FA71-71F3-4760-AEF4-DDA3355BC985}" ShortID="203688744">
+											<Language>SFX</Language>
+											<AudioFile>tableau prog5.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="tableau prog5" ID="{EC50FA71-71F3-4760-AEF4-DDA3355BC985}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
