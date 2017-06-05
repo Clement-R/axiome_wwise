@@ -3,32 +3,6 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{638E502A-1946-483A-A0D7-1CCF431BEF94}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="test mood axiome" ID="{936D43E5-EA1B-4747-B8DF-7F5BA45B3504}" ShortID="218142215" Type="SoundFX">
-					<PropertyList>
-						<Property Name="Inclusion" Type="bool">
-							<ValueList>
-								<Value>False</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="test mood axiome" ID="{C1847DE1-69B1-4961-88F1-2F63891E8545}" ShortID="298772246">
-							<Language>SFX</Language>
-							<AudioFile>test mood axiome.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="test mood axiome" ID="{C1847DE1-69B1-4961-88F1-2F63891E8545}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<RandomSequenceContainer Name="ambiance_evenements" ID="{24BC7B48-CA8D-46DA-8C65-D0B375FBEACD}" ShortID="955277999">
 					<PropertyList>
 						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
@@ -43,72 +17,10 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="enfantquijouent" ID="{96343D35-DF94-4518-96AE-9A6FF945748E}" ShortID="240883625" Type="SoundFX">
-							<PropertyList>
-								<Property Name="3DPositionSource" Type="int16" Value="0"/>
-								<Property Name="EnablePanner" Type="bool" Value="True"/>
-								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
-								<Property Name="PositioningType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="enfantquijouent" ID="{4072C047-B28D-47B8-91E6-CCEB2A3230A6}" ShortID="767507954">
-									<Language>SFX</Language>
-									<AudioFile>enfantquijouent.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<PositioningInfo>
-								<Panner Name="" ID="{6E2CA338-EEF8-4C57-A251-1B96BAFDCF68}">
-									<PropertyList>
-										<Property Name="PanX" Type="Real64" Value="1.0358803146007"/>
-										<Property Name="PanY" Type="Real64" Value="100"/>
-									</PropertyList>
-								</Panner>
-								<Position Name="" ID="{C53112D5-DB49-4D36-8148-0577760F2EC3}">
-									<ChildrenList>
-										<Path2D Name="enfantquijouent_Path" ID="{C0EF9153-897F-4EB5-B774-B888C223A821}">
-											<PropertyList>
-												<Property Name="Duration" Type="int32" Value="25000"/>
-											</PropertyList>
-											<PointList>
-												<Point>
-													<XPos>-98.73418</XPos>
-													<YPos>32.1656</YPos>
-													<Flags>12</Flags>
-													<Time>0</Time>
-												</Point>
-												<Point>
-													<XPos>-71.51899</XPos>
-													<YPos>-100</YPos>
-													<Flags>0</Flags>
-													<Time>25000</Time>
-												</Point>
-											</PointList>
-										</Path2D>
-									</ChildrenList>
-								</Position>
-							</PositioningInfo>
-							<ActiveSourceList>
-								<ActiveSource Name="enfantquijouent" ID="{4072C047-B28D-47B8-91E6-CCEB2A3230A6}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="steps jardin_A1-Gain_01" ID="{A8317FEE-0F8A-48DF-86BB-7B71C98A87E8}" ShortID="556812709" Type="SoundFX">
 							<PropertyList>
 								<Property Name="3DPositionSource" Type="int16" Value="0"/>
 								<Property Name="EnablePanner" Type="bool" Value="True"/>
-								<Property Name="InitialDelay" Type="Real64">
-									<ValueList>
-										<Value>140</Value>
-									</ValueList>
-								</Property>
 								<Property Name="OutputBusVolume" Type="Real64">
 									<ValueList>
 										<Value>-13</Value>
@@ -164,79 +76,10 @@
 								<ActiveSource Name="steps jardin_A1-Gain_01" ID="{C087FFEC-17B0-4ECF-A37B-2A263AE3F253}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="ouverture porte_A1-Gain_01" ID="{2264C0C4-0EC0-4872-A6CD-3C072F88EC80}" ShortID="440202861" Type="SoundFX">
-							<PropertyList>
-								<Property Name="3DPositionSource" Type="int16" Value="0"/>
-								<Property Name="EnablePanner" Type="bool" Value="True"/>
-								<Property Name="InitialDelay" Type="Real64">
-									<ValueList>
-										<Value>160</Value>
-									</ValueList>
-								</Property>
-								<Property Name="OutputBusVolume" Type="Real64">
-									<ValueList>
-										<Value>2</Value>
-									</ValueList>
-								</Property>
-								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
-								<Property Name="PositioningType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="ouverture porte_A1-Gain_01" ID="{857C358D-ED0B-4329-97AC-29D37BDAD1DD}" ShortID="624493673">
-									<Language>SFX</Language>
-									<AudioFile>ouverture porte.A1-Gain_01.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<PositioningInfo>
-								<Panner Name="" ID="{D4E745AA-7F3E-46BD-926E-C091E0A9E978}">
-									<PropertyList>
-										<Property Name="PanX" Type="Real64" Value="-93.6863543788187"/>
-										<Property Name="PanY" Type="Real64" Value="-71.9222462203024"/>
-									</PropertyList>
-								</Panner>
-								<Position Name="" ID="{D8DAD70A-7AAD-4290-A58B-364815B353E9}">
-									<ChildrenList>
-										<Path2D Name="ouverture porte_A1-Gain_01_Path" ID="{0228B7AC-7624-4FFA-BA51-E6AD1482F882}">
-											<PointList>
-												<Point>
-													<XPos>100</XPos>
-													<YPos>-70.38217</YPos>
-													<Flags>12</Flags>
-													<Time>0</Time>
-												</Point>
-												<Point>
-													<XPos>88.60759</XPos>
-													<YPos>-86.6242</YPos>
-													<Flags>0</Flags>
-													<Time>5000</Time>
-												</Point>
-											</PointList>
-										</Path2D>
-									</ChildrenList>
-								</Position>
-							</PositioningInfo>
-							<ActiveSourceList>
-								<ActiveSource Name="ouverture porte_A1-Gain_01" ID="{857C358D-ED0B-4329-97AC-29D37BDAD1DD}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="steps voisin_A1-Gain_01-02" ID="{C9FE618F-F980-42EE-8B06-FC254B7CB9D0}" ShortID="368691773" Type="SoundFX">
 							<PropertyList>
 								<Property Name="3DPositionSource" Type="int16" Value="0"/>
 								<Property Name="EnablePanner" Type="bool" Value="True"/>
-								<Property Name="InitialDelay" Type="Real64">
-									<ValueList>
-										<Value>20</Value>
-									</ValueList>
-								</Property>
 								<Property Name="OutputBusVolume" Type="Real64">
 									<ValueList>
 										<Value>-7</Value>
@@ -295,24 +138,7 @@
 								<ActiveSource Name="steps voisin_A1-Gain_01-02" ID="{0A2FF1F2-497F-4CD8-B234-508386D85324}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="télé_A1-Gain_01" ID="{26C21022-590E-4C2F-9285-5AD48C1C43D3}" ShortID="42514504" Type="SoundFX">
-							<PropertyList>
-								<Property Name="3DPositionSource" Type="int16" Value="0"/>
-								<Property Name="EnablePanner" Type="bool" Value="True"/>
-								<Property Name="InitialDelay" Type="Real64">
-									<ValueList>
-										<Value>160</Value>
-									</ValueList>
-								</Property>
-								<Property Name="OutputBusVolume" Type="Real64">
-									<ValueList>
-										<Value>-23</Value>
-									</ValueList>
-								</Property>
-								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
-								<Property Name="PositioningType" Type="int16" Value="1"/>
-							</PropertyList>
+						<Sound Name="step3" ID="{A482E133-1E2E-4D2D-B5C6-28FD594C8F1E}" ShortID="585011935" Type="SoundFX">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
@@ -322,31 +148,95 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="télé_A1-Gain_01" ID="{7C88BC52-5ED5-4467-B6A8-C046C2405E56}" ShortID="234468859">
+								<AudioFileSource Name="step3" ID="{2033AEB0-C0C6-43F1-93DC-71086D4C9D11}" ShortID="451809281">
 									<Language>SFX</Language>
-									<AudioFile>télé.A1-Gain_01.wav</AudioFile>
+									<AudioFile>step3.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
-							<PositioningInfo>
-								<Panner Name="" ID="{A6B91206-189F-4A6A-9F29-7986B20A411B}">
-									<PropertyList>
-										<Property Name="PanX" Type="Real64" Value="-96.1303462321792"/>
-										<Property Name="PanY" Type="Real64" Value="-95.8963282937365"/>
-									</PropertyList>
-								</Panner>
-								<Position Name="" ID="{2CF424BD-3B69-42AD-96CD-E561B897277C}"/>
-							</PositioningInfo>
 							<ActiveSourceList>
-								<ActiveSource Name="télé_A1-Gain_01" ID="{7C88BC52-5ED5-4467-B6A8-C046C2405E56}" Platform="Linked"/>
+								<ActiveSource Name="step3" ID="{2033AEB0-C0C6-43F1-93DC-71086D4C9D11}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="step2" ID="{83E7D794-6151-4FB1-9687-6796C1363FD8}" ShortID="225291063" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="step2" ID="{3C8C92A9-1C40-4606-BA96-1445E9F410D8}" ShortID="470155081">
+									<Language>SFX</Language>
+									<AudioFile>step2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="step2" ID="{3C8C92A9-1C40-4606-BA96-1445E9F410D8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="enfant2-01" ID="{316B0EAD-6663-4A92-A1CD-3039948EC7C3}" ShortID="821021961" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="enfant2-01" ID="{0740E879-27FB-41D3-81A3-462D0AA0D3DC}" ShortID="341997201">
+									<Language>SFX</Language>
+									<AudioFile>enfant2-01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="enfant2-01" ID="{0740E879-27FB-41D3-81A3-462D0AA0D3DC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="enfants1" ID="{3BE682FA-F432-4A92-8514-5683AB32704A}" ShortID="86603637" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="enfants1" ID="{0DEFC2BA-EF3B-458E-BE41-885918213FC7}" ShortID="483899724">
+									<Language>SFX</Language>
+									<AudioFile>enfants1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="enfants1" ID="{0DEFC2BA-EF3B-458E-BE41-885918213FC7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="porte" ID="{C7C57446-BB76-4883-8C53-3774C98A7FE7}" ShortID="85484157" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="porte" ID="{58DFDD64-BE48-4204-A574-C417ADFCA915}" ShortID="514477457">
+									<Language>SFX</Language>
+									<AudioFile>porte.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="porte" ID="{58DFDD64-BE48-4204-A574-C417ADFCA915}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
 					<Playlist>
-						<ItemRef Name="enfantquijouent" ID="{96343D35-DF94-4518-96AE-9A6FF945748E}"/>
 						<ItemRef Name="steps jardin_A1-Gain_01" ID="{A8317FEE-0F8A-48DF-86BB-7B71C98A87E8}"/>
-						<ItemRef Name="ouverture porte_A1-Gain_01" ID="{2264C0C4-0EC0-4872-A6CD-3C072F88EC80}"/>
 						<ItemRef Name="steps voisin_A1-Gain_01-02" ID="{C9FE618F-F980-42EE-8B06-FC254B7CB9D0}"/>
-						<ItemRef Name="télé_A1-Gain_01" ID="{26C21022-590E-4C2F-9285-5AD48C1C43D3}"/>
 					</Playlist>
 				</RandomSequenceContainer>
 				<Sound Name="voitures_A1-Gain_01" ID="{61EBEB14-7E22-454E-BC6A-5D72C4E9CEAA}" ShortID="343846905" Type="SoundFX">
@@ -391,133 +281,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="room tone_A1-Gain_01" ID="{B4291D3A-37DB-4CA4-BA04-6AF400CF9767}" ShortID="871564394" Type="SoundFX">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="OutputBusVolume" Type="Real64">
-									<ValueList>
-										<Value>-16</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="room tone_A1-Gain_01" ID="{98CA5AF5-EA95-4DB7-907D-F361784B83EC}" ShortID="920722745">
-									<Language>SFX</Language>
-									<AudioFile>room tone.A1-Gain_01.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="room tone_A1-Gain_01" ID="{98CA5AF5-EA95-4DB7-907D-F361784B83EC}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="amb jardin-01_A1-EQ37B_01-01" ID="{180F7C63-3F54-412E-93CF-6455668952E1}" ShortID="819690704" Type="SoundFX">
-							<PropertyList>
-								<Property Name="3DPositionSource" Type="int16" Value="0"/>
-								<Property Name="EnablePanner" Type="bool" Value="True"/>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="OutputBusVolume" Type="Real64">
-									<ValueList>
-										<Value>9</Value>
-									</ValueList>
-								</Property>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>4</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="amb jardin-01_A1-EQ37B_01-01" ID="{4C104B73-EAE8-4D02-A84C-DC81037D7835}" ShortID="321125832">
-									<Language>SFX</Language>
-									<AudioFile>amb jardin-01.A1-EQ37B_01-01.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<PositioningInfo>
-								<Panner Name="" ID="{F1054321-5937-475D-BABC-A9F497648503}">
-									<PropertyList>
-										<Property Name="PanX" Type="Real64" Value="100"/>
-										<Property Name="PanY" Type="Real64" Value="-27.645788336933"/>
-									</PropertyList>
-								</Panner>
-								<Position Name="" ID="{386F3E98-CB1E-4906-B3EF-AA862A5DA5EB}">
-									<ChildrenList>
-										<Path2D Name="amb jardin-01_A1-EQ37B_01-01_Path" ID="{3389AD09-6690-49A3-87E6-AD569DD46B61}">
-											<PointList>
-												<Point>
-													<XPos>0</XPos>
-													<YPos>50</YPos>
-													<Flags>12</Flags>
-													<Time>0</Time>
-												</Point>
-											</PointList>
-										</Path2D>
-									</ChildrenList>
-								</Position>
-							</PositioningInfo>
-							<ActiveSourceList>
-								<ActiveSource Name="amb jardin-01_A1-EQ37B_01-01" ID="{4C104B73-EAE8-4D02-A84C-DC81037D7835}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="amb jardin-01_A1-EQ37B_01-01 - Copie" ID="{3EFDC1EA-F989-4CE4-A241-A2AA36684C7B}" ShortID="75365635" Type="SoundFX">
-							<PropertyList>
-								<Property Name="EnablePanner" Type="bool" Value="True"/>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="OutputBusVolume" Type="Real64">
-									<ValueList>
-										<Value>-7</Value>
-									</ValueList>
-								</Property>
-								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>1</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Centre" ID="{5B950D8B-56B8-4B64-91BF-FE7E11D4467F}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="amb jardin-01_A1-EQ37B_01-01 - Copie" ID="{AAA6FAA0-941D-4FCD-B49F-1CF52F098C7D}" ShortID="295192347">
-									<Language>SFX</Language>
-									<AudioFile>amb jardin-01.A1-EQ37B_01-01 - Copie.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<PositioningInfo>
-								<Panner Name="" ID="{CF0A0A06-6D49-4EE6-817A-52F7B2AB8F1B}">
-									<PropertyList>
-										<Property Name="PanX" Type="Real64" Value="-100"/>
-										<Property Name="PanY" Type="Real64" Value="-4.75161987041037"/>
-									</PropertyList>
-								</Panner>
-							</PositioningInfo>
-							<ActiveSourceList>
-								<ActiveSource Name="amb jardin-01_A1-EQ37B_01-01 - Copie" ID="{AAA6FAA0-941D-4FCD-B49F-1CF52F098C7D}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="voitures" ID="{AD56133F-1FD8-46C0-A2F6-8CE2646F548A}" ShortID="77852830" Type="SoundFX">
 							<PropertyList>
 								<Property Name="EnablePanner" Type="bool" Value="True"/>
@@ -533,7 +296,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-16</Value>
+										<Value>-29</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -563,9 +326,55 @@
 								<ActiveSource Name="voiture ambience" ID="{0372B6BC-380C-4D1A-8901-1E672D40031A}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="jardin v1" ID="{97EFC8E8-7BFF-4A37-A29B-F560640F1E35}" ShortID="764476090" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="jardin v1" ID="{629AC30C-4134-452F-BBAA-71922219F2A5}" ShortID="416968555">
+									<Language>SFX</Language>
+									<AudioFile>jardin v1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="jardin v1" ID="{629AC30C-4134-452F-BBAA-71922219F2A5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="jardin2" ID="{B05C3D32-5DE9-4384-A1E5-DE6B6C52B44B}" ShortID="373332811" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="jardin2" ID="{D7CA60AC-6230-414A-86F1-1E26CE3C68F9}" ShortID="13143556">
+									<Language>SFX</Language>
+									<AudioFile>jardin2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="jardin2" ID="{D7CA60AC-6230-414A-86F1-1E26CE3C68F9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="tableau prog" ID="{375E0D1E-33A7-4E83-94F1-A927BABC9138}" ShortID="345581526">
+					<PropertyList>
+						<Property Name="DivergenceCenter" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
@@ -682,9 +491,22 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<Sound Name="tableau_complete" ID="{592F4726-53D1-422A-8D10-23652D27615B}" ShortID="129894003" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="animations" ID="{C4B3B531-CE07-4B62-B90E-E9A3A701B0A4}" ShortID="68941603">
+					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
@@ -695,6 +517,9 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="albumEnfantMort_2" ID="{95C6B49E-3F2B-48C4-B337-CDFFB80F30DE}" ShortID="881925748" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
@@ -703,8 +528,20 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="chien" ID="{73B6244C-AD12-4F40-98A6-EEB0D4E565AD}" ShortID="688700620">
+									<Language>SFX</Language>
+									<AudioFile>chien.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="chien" ID="{73B6244C-AD12-4F40-98A6-EEB0D4E565AD}" Platform="Linked"/>
+							</ActiveSourceList>
 						</Sound>
 						<Sound Name="albumEnfantMort_1" ID="{4A1ADFBF-9BBE-4DBB-BA4B-ED4CE087BD18}" ShortID="808520310" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
@@ -713,8 +550,20 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="school" ID="{926C4B9F-BF86-4310-BFEC-BC623263EAC7}" ShortID="742753950">
+									<Language>SFX</Language>
+									<AudioFile>school.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="school" ID="{926C4B9F-BF86-4310-BFEC-BC623263EAC7}" Platform="Linked"/>
+							</ActiveSourceList>
 						</Sound>
 						<Sound Name="albumEnfantMort_5" ID="{373F9E3D-A533-4E21-80F5-02E277284BEF}" ShortID="124483945" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
@@ -723,8 +572,20 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="drop" ID="{3A6F5FF3-A2D6-4BB9-AE5A-BBF225363C7A}" ShortID="503640183">
+									<Language>SFX</Language>
+									<AudioFile>drop.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="drop" ID="{3A6F5FF3-A2D6-4BB9-AE5A-BBF225363C7A}" Platform="Linked"/>
+							</ActiveSourceList>
 						</Sound>
 						<Sound Name="albumEnfantMort_8" ID="{80338C35-5F17-4B8D-8812-82A8A24D717D}" ShortID="258069366" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
@@ -735,6 +596,9 @@
 							</ReferenceList>
 						</Sound>
 						<Sound Name="albumEnfantMort_11" ID="{66FC52AE-A871-4683-96B4-56FE9769D683}" ShortID="50863607" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
@@ -745,6 +609,9 @@
 							</ReferenceList>
 						</Sound>
 						<Sound Name="albumGrandMere_2" ID="{5C739375-3FD6-4E68-B8C2-28C05C226DD8}" ShortID="883513129" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
@@ -753,8 +620,20 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="anim mer" ID="{7886D9C4-87E3-4516-86F2-D4605E3E16D4}" ShortID="258652790">
+									<Language>SFX</Language>
+									<AudioFile>anim mer.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="anim mer" ID="{7886D9C4-87E3-4516-86F2-D4605E3E16D4}" Platform="Linked"/>
+							</ActiveSourceList>
 						</Sound>
 						<Sound Name="albumGrandMere_6" ID="{FDD9E099-2898-4F4B-839D-E64258117A01}" ShortID="866050396" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
@@ -765,6 +644,9 @@
 							</ReferenceList>
 						</Sound>
 						<Sound Name="albumGrandMere_9" ID="{F0F68457-A62B-475D-B1C7-583C2643B944}" ShortID="127413924" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
@@ -773,8 +655,20 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="christmas" ID="{C878DEC1-D52D-45C5-A0F4-02C50BCEC037}" ShortID="923624810">
+									<Language>SFX</Language>
+									<AudioFile>christmas.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="christmas" ID="{C878DEC1-D52D-45C5-A0F4-02C50BCEC037}" Platform="Linked"/>
+							</ActiveSourceList>
 						</Sound>
 						<Sound Name="albumGrandMere_13" ID="{20F37D7F-09BC-42A1-BAB6-17617324BD58}" ShortID="487257013" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
@@ -783,8 +677,20 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="télévision grand mère" ID="{7787AB08-2119-4706-A4B4-8D9260EC1F0C}" ShortID="179265841">
+									<Language>SFX</Language>
+									<AudioFile>télévision grand mère.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="télévision grand mère" ID="{7787AB08-2119-4706-A4B4-8D9260EC1F0C}" Platform="Linked"/>
+							</ActiveSourceList>
 						</Sound>
 						<Sound Name="albumGrandMere_4" ID="{226C1D1B-D02C-4057-9C05-EF8B6E2A5C3B}" ShortID="72105552" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
@@ -793,6 +699,15 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="wedding" ID="{099793C0-6570-43ED-B39B-CA437E108071}" ShortID="375285929">
+									<Language>SFX</Language>
+									<AudioFile>wedding.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="wedding" ID="{099793C0-6570-43ED-B39B-CA437E108071}" Platform="Linked"/>
+							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
 				</ActorMixer>

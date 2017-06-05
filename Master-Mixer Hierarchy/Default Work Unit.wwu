@@ -11,27 +11,6 @@
 							</ValueList>
 						</Property>
 					</PropertyList>
-					<ReferenceList/>
-					<ChildrenList>
-						<Bus Name="Centre" ID="{5B950D8B-56B8-4B64-91BF-FE7E11D4467F}">
-							<PropertyList>
-								<Property Name="BusChannelConfig" Type="int32">
-									<ValueList>
-										<Value>16641</Value>
-									</ValueList>
-								</Property>
-								<Property Name="DivergenceCenter" Type="int32">
-									<ValueList>
-										<Value>100</Value>
-									</ValueList>
-								</Property>
-								<Property Name="EnablePanner" Type="bool" Value="True"/>
-							</PropertyList>
-							<PositioningInfo>
-								<Panner Name="" ID="{3A18191A-6451-4C5F-A2A6-D5532BA6573C}"/>
-							</PositioningInfo>
-						</Bus>
-					</ChildrenList>
 				</Bus>
 				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}"/>
 				<MotionBus Name="Master Motion Bus" ID="{20A630BA-3398-4676-B927-1004DFE41FD8}"/>

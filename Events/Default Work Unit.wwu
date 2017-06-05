@@ -163,6 +163,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="tableau_complete" ID="{3CE7494F-445C-49B7-93A5-4C29C73CA87F}">
+					<ChildrenList>
+						<Action Name="Play" ID="{A6FB7C23-A5DC-4B8C-B654-03FC6BBD7EC1}" ShortID="739968264" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{055B9965-E69F-422E-8892-B47E1CF6CA4C}" Global="false">
+									<ObjectRef Name="tableau_complete" ID="{592F4726-53D1-422A-8D10-23652D27615B}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

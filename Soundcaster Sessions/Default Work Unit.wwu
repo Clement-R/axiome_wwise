@@ -6,20 +6,8 @@
 				<SoundcasterSession Name="New Soundcaster Session" ID="{05CB1C98-2846-47D2-873A-43312900E847}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="amb jardin-01_A1-EQ37B_01-01" ID="{180F7C63-3F54-412E-93CF-6455668952E1}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="ambiance_evenements" ID="{24BC7B48-CA8D-46DA-8C65-D0B375FBEACD}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
 							<Position X="0" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="amb jardin-01_A1-EQ37B_01-01 - Copie" ID="{3EFDC1EA-F989-4CE4-A241-A2AA36684C7B}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
-							<Position X="1" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="room tone_A1-Gain_01" ID="{B4291D3A-37DB-4CA4-BA04-6AF400CF9767}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
-							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="voitures" ID="{AD56133F-1FD8-46C0-A2F6-8CE2646F548A}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
