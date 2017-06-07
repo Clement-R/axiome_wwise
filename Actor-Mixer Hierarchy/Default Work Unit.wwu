@@ -491,7 +491,7 @@
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-17</Value>
+										<Value>-14</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -504,9 +504,9 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="jardin2" ID="{D7CA60AC-6230-414A-86F1-1E26CE3C68F9}" ShortID="13143556">
+								<AudioFileSource Name="jardin3" ID="{9E0603AB-327A-4EDA-909A-05D3095B1EE6}" ShortID="124474932">
 									<Language>SFX</Language>
-									<AudioFile>jardin2.wav</AudioFile>
+									<AudioFile>jardin3.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<PositioningInfo>
@@ -518,7 +518,7 @@
 								</Panner>
 							</PositioningInfo>
 							<ActiveSourceList>
-								<ActiveSource Name="jardin2" ID="{D7CA60AC-6230-414A-86F1-1E26CE3C68F9}" Platform="Linked"/>
+								<ActiveSource Name="jardin3" ID="{9E0603AB-327A-4EDA-909A-05D3095B1EE6}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="room tone_A1-Gain_01" ID="{2420EAC9-8C74-4830-AA11-DB5C304F2954}" ShortID="682381606" Type="SoundFX">
