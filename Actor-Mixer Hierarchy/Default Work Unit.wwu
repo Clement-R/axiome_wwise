@@ -5,8 +5,17 @@
 			<ChildrenList>
 				<RandomSequenceContainer Name="ambiance_evenements" ID="{24BC7B48-CA8D-46DA-8C65-D0B375FBEACD}" ShortID="955277999">
 					<PropertyList>
-						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="InitialDelay" Type="Real64">
+							<ValueList>
+								<Value>50</Value>
+							</ValueList>
+						</Property>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -21,6 +30,11 @@
 							<PropertyList>
 								<Property Name="3DPositionSource" Type="int16" Value="0"/>
 								<Property Name="EnablePanner" Type="bool" Value="True"/>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
 								<Property Name="OutputBusVolume" Type="Real64">
 									<ValueList>
 										<Value>-13</Value>
@@ -80,6 +94,11 @@
 							<PropertyList>
 								<Property Name="3DPositionSource" Type="int16" Value="0"/>
 								<Property Name="EnablePanner" Type="bool" Value="True"/>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>60</Value>
+									</ValueList>
+								</Property>
 								<Property Name="OutputBusVolume" Type="Real64">
 									<ValueList>
 										<Value>-7</Value>
@@ -139,6 +158,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="step3" ID="{A482E133-1E2E-4D2D-B5C6-28FD594C8F1E}" ShortID="585011935" Type="SoundFX">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>60</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
@@ -158,6 +184,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="step2" ID="{83E7D794-6151-4FB1-9687-6796C1363FD8}" ShortID="225291063" Type="SoundFX">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
@@ -177,6 +210,20 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="enfant2-01" ID="{316B0EAD-6663-4A92-A1CD-3039948EC7C3}" ShortID="821021961" Type="SoundFX">
+							<PropertyList>
+								<Property Name="EnablePanner" Type="bool" Value="True"/>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>40</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
@@ -187,15 +234,36 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="enfant2-01" ID="{0740E879-27FB-41D3-81A3-462D0AA0D3DC}" ShortID="341997201">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="9.23938730853392"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="2.79305616338439"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>enfant2-01.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{49A06A59-BBE7-47FF-9B4E-78387FCD3359}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="76.9539078156313"/>
+										<Property Name="PanY" Type="Real64" Value="-100"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="enfant2-01" ID="{0740E879-27FB-41D3-81A3-462D0AA0D3DC}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="enfants1" ID="{3BE682FA-F432-4A92-8514-5683AB32704A}" ShortID="86603637" Type="SoundFX">
+							<PropertyList>
+								<Property Name="EnablePanner" Type="bool" Value="True"/>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>40</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
@@ -206,15 +274,36 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="enfants1" ID="{0DEFC2BA-EF3B-458E-BE41-885918213FC7}" ShortID="483899724">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="10.6446564551422"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="4.0231772428884"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>enfants1.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{2F982E6E-4E42-4D74-B92A-35422F5F1B22}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="-100"/>
+										<Property Name="PanY" Type="Real64" Value="40.7643312101911"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="enfants1" ID="{0DEFC2BA-EF3B-458E-BE41-885918213FC7}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="porte" ID="{C7C57446-BB76-4883-8C53-3774C98A7FE7}" ShortID="85484157" Type="SoundFX">
+							<PropertyList>
+								<Property Name="EnablePanner" Type="bool" Value="True"/>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>60</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
@@ -229,14 +318,29 @@
 									<AudioFile>porte.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{1E7390E2-14DB-4EDE-8269-6D3732A6EECD}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="-42.2845691382766"/>
+										<Property Name="PanY" Type="Real64" Value="-100"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="porte" ID="{58DFDD64-BE48-4204-A574-C417ADFCA915}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
 					<Playlist>
+						<ItemRef Name="enfant2-01" ID="{316B0EAD-6663-4A92-A1CD-3039948EC7C3}"/>
 						<ItemRef Name="steps jardin_A1-Gain_01" ID="{A8317FEE-0F8A-48DF-86BB-7B71C98A87E8}"/>
+						<ItemRef Name="enfants1" ID="{3BE682FA-F432-4A92-8514-5683AB32704A}"/>
+						<ItemRef Name="porte" ID="{C7C57446-BB76-4883-8C53-3774C98A7FE7}"/>
+						<ItemRef Name="step2" ID="{83E7D794-6151-4FB1-9687-6796C1363FD8}"/>
+						<ItemRef Name="enfants1" ID="{3BE682FA-F432-4A92-8514-5683AB32704A}"/>
+						<ItemRef Name="step3" ID="{A482E133-1E2E-4D2D-B5C6-28FD594C8F1E}"/>
 						<ItemRef Name="steps voisin_A1-Gain_01-02" ID="{C9FE618F-F980-42EE-8B06-FC254B7CB9D0}"/>
+						<ItemRef Name="step3" ID="{A482E133-1E2E-4D2D-B5C6-28FD594C8F1E}"/>
 					</Playlist>
 				</RandomSequenceContainer>
 				<Sound Name="voitures_A1-Gain_01" ID="{61EBEB14-7E22-454E-BC6A-5D72C4E9CEAA}" ShortID="343846905" Type="SoundFX">
@@ -283,7 +387,9 @@
 					<ChildrenList>
 						<Sound Name="voitures" ID="{AD56133F-1FD8-46C0-A2F6-8CE2646F548A}" ShortID="77852830" Type="SoundFX">
 							<PropertyList>
+								<Property Name="3DPositionSource" Type="int16" Value="0"/>
 								<Property Name="EnablePanner" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="MakeUpGain" Type="Real64">
 									<ValueList>
 										<Value>8</Value>
@@ -294,9 +400,10 @@
 										<Value>-5</Value>
 									</ValueList>
 								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-29</Value>
+										<Value>-32</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -317,16 +424,40 @@
 							<PositioningInfo>
 								<Panner Name="" ID="{CA995427-EEAC-4CDD-8389-9039B1A245CD}">
 									<PropertyList>
-										<Property Name="PanX" Type="Real64" Value="-98.9816700610998"/>
-										<Property Name="PanY" Type="Real64" Value="-77.7537796976242"/>
+										<Property Name="PanX" Type="Real64" Value="-78.1399866943663"/>
+										<Property Name="PanY" Type="Real64" Value="1.65174047222717"/>
 									</PropertyList>
 								</Panner>
+								<Position Name="" ID="{EB47B3F4-83A2-401B-B97B-382F2CE8AC73}">
+									<ChildrenList>
+										<Path2D Name="voitures_Path" ID="{E761769E-15FB-41B2-B2C8-53DD3715DCF1}">
+											<PointList>
+												<Point>
+													<XPos>-100</XPos>
+													<YPos>-1.59236</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
 							</PositioningInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="voiture ambience" ID="{0372B6BC-380C-4D1A-8901-1E672D40031A}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="jardin v1" ID="{97EFC8E8-7BFF-4A37-A29B-F560640F1E35}" ShortID="764476090" Type="SoundFX">
+							<PropertyList>
+								<Property Name="EnablePanner" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
@@ -341,11 +472,29 @@
 									<AudioFile>jardin v1.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{A87649E2-B6E5-47BA-B1F5-6AE3597EEA3A}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="69.7394789579158"/>
+										<Property Name="PanY" Type="Real64" Value="2.12314225053079"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="jardin v1" ID="{629AC30C-4134-452F-BBAA-71922219F2A5}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="jardin2" ID="{B05C3D32-5DE9-4384-A1E5-DE6B6C52B44B}" ShortID="373332811" Type="SoundFX">
+							<PropertyList>
+								<Property Name="EnablePanner" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-17</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
@@ -360,8 +509,43 @@
 									<AudioFile>jardin2.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{CCFE2CF3-D038-448C-A98A-7DF1A782CE4B}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="-48.496993987976"/>
+										<Property Name="PanY" Type="Real64" Value="12.3142250530786"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="jardin2" ID="{D7CA60AC-6230-414A-86F1-1E26CE3C68F9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="room tone_A1-Gain_01" ID="{2420EAC9-8C74-4830-AA11-DB5C304F2954}" ShortID="682381606" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-25</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="room tone_A1-Gain_01" ID="{575FD059-EFCE-4F2D-8616-283962BA8CDC}" ShortID="125364568">
+									<Language>SFX</Language>
+									<AudioFile>room tone.A1-Gain_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="room tone_A1-Gain_01" ID="{575FD059-EFCE-4F2D-8616-283962BA8CDC}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -374,6 +558,11 @@
 							</ValueList>
 						</Property>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-7</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -506,6 +695,11 @@
 				<ActorMixer Name="animations" ID="{C4B3B531-CE07-4B62-B90E-E9A3A701B0A4}" ShortID="68941603">
 					<PropertyList>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -541,6 +735,11 @@
 						<Sound Name="albumEnfantMort_1" ID="{4A1ADFBF-9BBE-4DBB-BA4B-ED4CE087BD18}" ShortID="808520310" Type="SoundFX">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -563,6 +762,11 @@
 						<Sound Name="albumEnfantMort_5" ID="{373F9E3D-A533-4E21-80F5-02E277284BEF}" ShortID="124483945" Type="SoundFX">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -611,6 +815,11 @@
 						<Sound Name="albumGrandMere_2" ID="{5C739375-3FD6-4E68-B8C2-28C05C226DD8}" ShortID="883513129" Type="SoundFX">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -646,6 +855,11 @@
 						<Sound Name="albumGrandMere_9" ID="{F0F68457-A62B-475D-B1C7-583C2643B944}" ShortID="127413924" Type="SoundFX">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -668,6 +882,12 @@
 						<Sound Name="albumGrandMere_13" ID="{20F37D7F-09BC-42A1-BAB6-17617324BD58}" ShortID="487257013" Type="SoundFX">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -690,6 +910,11 @@
 						<Sound Name="albumGrandMere_4" ID="{226C1D1B-D02C-4057-9C05-EF8B6E2A5C3B}" ShortID="72105552" Type="SoundFX">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">

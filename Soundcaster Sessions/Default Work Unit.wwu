@@ -18,6 +18,33 @@
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
+				<SoundcasterSession Name="New Soundcaster Session_01" ID="{88893C53-D779-4E97-A730-99ABAFAB725D}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="ambiance" ID="{D70A0C9E-311C-48A7-987D-36A1D695B7B3}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ambiance_evenements" ID="{24BC7B48-CA8D-46DA-8C65-D0B375FBEACD}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_albumEnfantMort_1" ID="{A23F47BC-E320-4294-9B03-12CA5F5CB1F2}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_albumGrandMere_2" ID="{22075784-7BAE-4CCB-8B61-FE8AE6E73D4A}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Tableau_progression" ID="{274F99C3-AFD4-48FC-95BE-2F9061D97F6B}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundcasterSessions>

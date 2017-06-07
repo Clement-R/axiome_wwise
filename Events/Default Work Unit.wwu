@@ -5,31 +5,24 @@
 			<ChildrenList>
 				<Event Name="ambiance" ID="{D70A0C9E-311C-48A7-987D-36A1D695B7B3}">
 					<ChildrenList>
-						<Action Name="Play" ID="{49519193-2B68-4673-B9E2-70D9DB44D25B}" ShortID="475245355" Type="Play" Scope="One" Global="false">
-							<ElementList>
-								<Element ID="{DB4A4C84-C596-4019-BE0F-5D144A47390D}" Global="false">
-									<ObjectRef Name="amb jardin-01_A1-EQ37B_01-01" ID="{180F7C63-3F54-412E-93CF-6455668952E1}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
-								</Element>
-							</ElementList>
-						</Action>
 						<Action Name="Play" ID="{3C829BAA-6EBA-4A5A-B5F8-CFAFB1C8CF32}" ShortID="397003108" Type="Play" Scope="One" Global="false">
 							<ElementList>
-								<Element ID="{158481FE-0808-4FA2-A79E-9E68A7958763}" Global="false">
-									<ObjectRef Name="ambiance_evenements" ID="{24BC7B48-CA8D-46DA-8C65-D0B375FBEACD}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
+								<Element ID="{B1A0B15A-C50D-450E-97C1-968454A7FBBD}" Global="false">
+									<ObjectRef Name="room tone_A1-Gain_01" ID="{2420EAC9-8C74-4830-AA11-DB5C304F2954}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
 								</Element>
 							</ElementList>
 						</Action>
 						<Action Name="Play" ID="{E4496500-0755-49D0-AA06-1F1867660D24}" ShortID="422628816" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{42B268B7-DEDD-4A65-9129-657B9AB8E661}" Global="false">
-									<ObjectRef Name="amb jardin-01_A1-EQ37B_01-01 - Copie" ID="{3EFDC1EA-F989-4CE4-A241-A2AA36684C7B}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
+									<ObjectRef Name="jardin2" ID="{B05C3D32-5DE9-4384-A1E5-DE6B6C52B44B}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
 								</Element>
 							</ElementList>
 						</Action>
 						<Action Name="Play" ID="{4FF851C0-B2FE-406E-8963-08283BCC7A18}" ShortID="676472781" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{EE02540D-2BDC-4023-BDD1-D3F2F97F025A}" Global="false">
-									<ObjectRef Name="room tone_A1-Gain_01" ID="{B4291D3A-37DB-4CA4-BA04-6AF400CF9767}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
+									<ObjectRef Name="jardin v1" ID="{97EFC8E8-7BFF-4A37-A29B-F560640F1E35}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
 								</Element>
 							</ElementList>
 						</Action>
