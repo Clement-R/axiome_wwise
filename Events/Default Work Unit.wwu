@@ -33,6 +33,13 @@
 								</Element>
 							</ElementList>
 						</Action>
+						<Action Name="Play" ID="{7C9F3211-D446-4909-8D47-6B708803E872}" ShortID="816102150" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{ED423682-D61C-4C28-9103-C209BC18EC59}" Global="false">
+									<ObjectRef Name="ambiance_evenements" ID="{24BC7B48-CA8D-46DA-8C65-D0B375FBEACD}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
+								</Element>
+							</ElementList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Tableau_progression" ID="{274F99C3-AFD4-48FC-95BE-2F9061D97F6B}">
@@ -162,6 +169,18 @@
 							<ElementList>
 								<Element ID="{055B9965-E69F-422E-8892-B47E1CF6CA4C}" Global="false">
 									<ObjectRef Name="tableau_complete" ID="{592F4726-53D1-422A-8D10-23652D27615B}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="reset" ID="{EA988901-C9C9-48F5-8625-A92B288D995D}">
+					<ChildrenList>
+						<Action Name="Stop All" ID="{CCC8FF5C-569B-498F-B428-B1D789B40C7F}" ShortID="907229880" Type="Stop" Scope="All" Global="false"/>
+						<Action Name="Post Event" ID="{FB1A2CDD-73FA-40F7-AB72-369AA4FB882F}" ShortID="54059144" Type="PlayEvent" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{0DF2712F-0692-4767-B05E-2B563B32C865}" Global="false">
+									<ObjectRef Name="ambiance" ID="{D70A0C9E-311C-48A7-987D-36A1D695B7B3}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
 								</Element>
 							</ElementList>
 						</Action>

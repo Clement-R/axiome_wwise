@@ -33,6 +33,10 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="reset" ID="{EA988901-C9C9-48F5-8625-A92B288D995D}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_albumGrandMere_2" ID="{22075784-7BAE-4CCB-8B61-FE8AE6E73D4A}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
 							<Position X="2" Y="0"/>
 						</Module>

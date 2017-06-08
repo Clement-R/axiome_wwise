@@ -7,9 +7,10 @@
 					<PropertyList>
 						<Property Name="InitialDelay" Type="Real64">
 							<ValueList>
-								<Value>50</Value>
+								<Value>40</Value>
 							</ValueList>
 						</Property>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -187,7 +188,7 @@
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>5</Value>
+										<Value>60</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -212,15 +213,10 @@
 						<Sound Name="enfant2-01" ID="{316B0EAD-6663-4A92-A1CD-3039948EC7C3}" ShortID="821021961" Type="SoundFX">
 							<PropertyList>
 								<Property Name="EnablePanner" Type="bool" Value="True"/>
-								<Property Name="InitialDelay" Type="Real64">
-									<ValueList>
-										<Value>40</Value>
-									</ValueList>
-								</Property>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>3</Value>
+										<Value>1</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -245,8 +241,8 @@
 							<PositioningInfo>
 								<Panner Name="" ID="{49A06A59-BBE7-47FF-9B4E-78387FCD3359}">
 									<PropertyList>
-										<Property Name="PanX" Type="Real64" Value="76.9539078156313"/>
-										<Property Name="PanY" Type="Real64" Value="-100"/>
+										<Property Name="PanX" Type="Real64" Value="56.1122244488978"/>
+										<Property Name="PanY" Type="Real64" Value="-95.7537154989384"/>
 									</PropertyList>
 								</Panner>
 							</PositioningInfo>
@@ -297,11 +293,6 @@
 						<Sound Name="porte" ID="{C7C57446-BB76-4883-8C53-3774C98A7FE7}" ShortID="85484157" Type="SoundFX">
 							<PropertyList>
 								<Property Name="EnablePanner" Type="bool" Value="True"/>
-								<Property Name="InitialDelay" Type="Real64">
-									<ValueList>
-										<Value>60</Value>
-									</ValueList>
-								</Property>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -379,7 +370,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>4</Value>
+								<Value>9</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
