@@ -29,20 +29,64 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_albumEnfantMort_1" ID="{A23F47BC-E320-4294-9B03-12CA5F5CB1F2}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
-							<Position X="1" Y="0"/>
+							<ObjectRef Name="Play_albumGrandMere_2" ID="{22075784-7BAE-4CCB-8B61-FE8AE6E73D4A}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
+							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="reset" ID="{EA988901-C9C9-48F5-8625-A92B288D995D}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_albumEnfantMort_1" ID="{A23F47BC-E320-4294-9B03-12CA5F5CB1F2}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_albumGrandMere_2" ID="{22075784-7BAE-4CCB-8B61-FE8AE6E73D4A}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
-							<Position X="2" Y="0"/>
+							<ObjectRef Name="Play_albumEnfantMort_8" ID="{16068A10-3CA3-4409-A9F6-7475A8FBDB6E}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_albumGrandMere_13" ID="{82531DE0-FF79-43C9-90DD-CBD9F7FCF725}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
+							<Position X="1" Y="3"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Tableau_progression" ID="{274F99C3-AFD4-48FC-95BE-2F9061D97F6B}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_albumEnfantMort_2" ID="{72BBC1D0-E64D-44A9-A8A6-AB59C3F01F4E}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_albumEnfantMort_11" ID="{F767DA23-3DDC-4302-A3E5-9E5727414C6E}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="tableau_complete" ID="{3CE7494F-445C-49B7-93A5-4C29C73CA87F}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="fin_experience" ID="{2BF61C29-D7BD-4FF4-A4E8-40BB79707B6E}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_albumEnfantMort_5" ID="{624F67C4-72E9-4BA3-9F14-299C2FBDAAAE}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
 							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_albumGrandMere_2" ID="{22075784-7BAE-4CCB-8B61-FE8AE6E73D4A}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_albumGrandMere_6" ID="{25105A2C-5AC4-4245-8218-10E27434DD3B}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_albumGrandMere_4" ID="{B59411E1-5801-4A68-8A48-394D23EF826C}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_albumGrandMere_9" ID="{2FB2DEB6-6D6A-46C1-B707-39696A88F160}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
+							<Position X="4" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>

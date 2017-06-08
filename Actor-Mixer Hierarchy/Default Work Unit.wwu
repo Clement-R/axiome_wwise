@@ -679,6 +679,14 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<Sound Name="tableau_complete" ID="{592F4726-53D1-422A-8D10-23652D27615B}" ShortID="129894003" Type="SoundFX">
+							<PropertyList>
+								<Property Name="DivergenceCenter" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
@@ -688,13 +696,13 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="TABLEAU COMPLETE" ID="{F632A2BF-7339-4A97-BFD2-AC119B569E34}" ShortID="130409073">
+								<AudioFileSource Name="Tableau complete final" ID="{62DCFB3F-E1DC-49B1-8993-F23EE7D2E014}" ShortID="987649488">
 									<Language>SFX</Language>
-									<AudioFile>TABLEAU COMPLETE.wav</AudioFile>
+									<AudioFile>Tableau complete final.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="TABLEAU COMPLETE" ID="{F632A2BF-7339-4A97-BFD2-AC119B569E34}" Platform="Linked"/>
+								<ActiveSource Name="Tableau complete final" ID="{62DCFB3F-E1DC-49B1-8993-F23EE7D2E014}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -796,6 +804,11 @@
 						<Sound Name="albumEnfantMort_8" ID="{80338C35-5F17-4B8D-8812-82A8A24D717D}" ShortID="258069366" Type="SoundFX">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -806,13 +819,13 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="birthday-03" ID="{CFDA36FB-26B4-4ED5-A3D6-CE8D2E79B750}" ShortID="529351875">
+								<AudioFileSource Name="anniversaire" ID="{DBDC559C-61B6-4BD4-9662-70ADFDBC5368}" ShortID="899459268">
 									<Language>SFX</Language>
-									<AudioFile>birthday-03.wav</AudioFile>
+									<AudioFile>anniversaire.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="birthday-03" ID="{CFDA36FB-26B4-4ED5-A3D6-CE8D2E79B750}" Platform="Linked"/>
+								<ActiveSource Name="anniversaire" ID="{DBDC559C-61B6-4BD4-9662-70ADFDBC5368}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="albumEnfantMort_11" ID="{66FC52AE-A871-4683-96B4-56FE9769D683}" ShortID="50863607" Type="SoundFX">
@@ -828,13 +841,13 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="355742__supercolio__woman-sobbing-03" ID="{0CC4DB40-3FEB-407C-A622-D64082499A38}" ShortID="848964127">
+								<AudioFileSource Name="enfant pleure" ID="{6507E0A7-AB82-40D9-89CD-64D57541CB58}" ShortID="615803127">
 									<Language>SFX</Language>
-									<AudioFile>355742__supercolio__woman-sobbing-03.wav</AudioFile>
+									<AudioFile>enfant pleure.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="355742__supercolio__woman-sobbing-03" ID="{0CC4DB40-3FEB-407C-A622-D64082499A38}" Platform="Linked"/>
+								<ActiveSource Name="enfant pleure" ID="{6507E0A7-AB82-40D9-89CD-64D57541CB58}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="albumGrandMere_2" ID="{5C739375-3FD6-4E68-B8C2-28C05C226DD8}" ShortID="883513129" Type="SoundFX">
@@ -867,6 +880,11 @@
 						<Sound Name="albumGrandMere_6" ID="{FDD9E099-2898-4F4B-839D-E64258117A01}" ShortID="866050396" Type="SoundFX">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -877,13 +895,13 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="maman3-01" ID="{BF5BA8CE-93B1-4B46-8FAC-FF90B8CDA388}" ShortID="61637736">
+								<AudioFileSource Name="maman berceuse" ID="{314FC83F-C35E-40D5-900D-CB31F3A00576}" ShortID="1051238447">
 									<Language>SFX</Language>
-									<AudioFile>maman3-01.wav</AudioFile>
+									<AudioFile>maman berceuse.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="maman3-01" ID="{BF5BA8CE-93B1-4B46-8FAC-FF90B8CDA388}" Platform="Linked"/>
+								<ActiveSource Name="maman berceuse" ID="{314FC83F-C35E-40D5-900D-CB31F3A00576}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="albumGrandMere_9" ID="{F0F68457-A62B-475D-B1C7-583C2643B944}" ShortID="127413924" Type="SoundFX">
@@ -970,6 +988,76 @@
 						</Sound>
 					</ChildrenList>
 				</ActorMixer>
+				<Sound Name="horloge" ID="{A20BBB15-A5DE-489F-AEC5-725F9B6ABB01}" ShortID="758917603" Type="SoundFX">
+					<PropertyList>
+						<Property Name="EnablePanner" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="horloge" ID="{49FF4B67-7846-4113-917D-5106BCF57590}" ShortID="373112605">
+							<Language>SFX</Language>
+							<AudioFile>horloge.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{EF98DDC9-296E-4D43-8AE6-24AD49AC4A07}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="-54.5090180360722"/>
+								<Property Name="PanY" Type="Real64" Value="100"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="horloge" ID="{49FF4B67-7846-4113-917D-5106BCF57590}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="facteur" ID="{BC3E0878-013A-4E44-9332-1B27EB35DF9D}" ShortID="1046262600" Type="SoundFX">
+					<PropertyList>
+						<Property Name="EnablePanner" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3643CA8-E6CC-4CF2-BC4E-6F84379D4D54}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F60C9F3-3765-4009-AF8E-93101277CF57}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="facteur" ID="{802D5FF3-244C-42EF-8590-5B147873CFAE}" ShortID="812190972">
+							<Language>SFX</Language>
+							<AudioFile>facteur.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{5BDB8120-42B4-48DE-BC7C-A935DB7EE996}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="100"/>
+								<Property Name="PanY" Type="Real64" Value="-0.849256900212335"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="facteur" ID="{802D5FF3-244C-42EF-8590-5B147873CFAE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

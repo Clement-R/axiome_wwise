@@ -172,6 +172,13 @@
 								</Element>
 							</ElementList>
 						</Action>
+						<Action Name="Play" ID="{55E08F60-D48B-4288-B5FB-E81FEA30DC1F}" ShortID="201707325" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{961B01F0-6A3F-4FC2-B63C-77873AE61ACD}" Global="false">
+									<ObjectRef Name="facteur" ID="{BC3E0878-013A-4E44-9332-1B27EB35DF9D}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
+								</Element>
+							</ElementList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="reset" ID="{EA988901-C9C9-48F5-8625-A92B288D995D}">
@@ -181,6 +188,17 @@
 							<ElementList>
 								<Element ID="{0DF2712F-0692-4767-B05E-2B563B32C865}" Global="false">
 									<ObjectRef Name="ambiance" ID="{D70A0C9E-311C-48A7-987D-36A1D695B7B3}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="fin_experience" ID="{2BF61C29-D7BD-4FF4-A4E8-40BB79707B6E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{D9A11BDA-E44E-4A96-BAD5-597EE7FBACD8}" ShortID="677036251" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{CA0BEF64-8E22-4F9A-9EED-882B78E71ED0}" Global="false">
+									<ObjectRef Name="horloge" ID="{A20BBB15-A5DE-489F-AEC5-725F9B6ABB01}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
 								</Element>
 							</ElementList>
 						</Action>
