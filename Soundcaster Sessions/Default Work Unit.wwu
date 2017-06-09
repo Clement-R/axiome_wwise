@@ -93,6 +93,73 @@
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
+				<SoundcasterSession Name="New Soundcaster Session_02" ID="{22BD37FF-6C20-42D3-81D7-3C112A3D0E09}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="ambiance" ID="{D70A0C9E-311C-48A7-987D-36A1D695B7B3}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="fin_experience" ID="{2BF61C29-D7BD-4FF4-A4E8-40BB79707B6E}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_albumEnfantMort_1" ID="{A23F47BC-E320-4294-9B03-12CA5F5CB1F2}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="tableau_complete" ID="{3CE7494F-445C-49B7-93A5-4C29C73CA87F}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="albumEnfantMort_2" ID="{95C6B49E-3F2B-48C4-B337-CDFFB80F30DE}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Tableau_progression" ID="{274F99C3-AFD4-48FC-95BE-2F9061D97F6B}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="albumEnfantMort_5" ID="{373F9E3D-A533-4E21-80F5-02E277284BEF}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="reset" ID="{EA988901-C9C9-48F5-8625-A92B288D995D}" WorkUnitID="{9A008EA6-78AA-4382-B22A-A38632770768}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="albumEnfantMort_8" ID="{80338C35-5F17-4B8D-8812-82A8A24D717D}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="albumGrandMere_2" ID="{5C739375-3FD6-4E68-B8C2-28C05C226DD8}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="albumEnfantMort_11" ID="{66FC52AE-A871-4683-96B4-56FE9769D683}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
+							<Position X="5" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="albumGrandMere_4" ID="{226C1D1B-D02C-4057-9C05-EF8B6E2A5C3B}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
+							<Position X="5" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="albumGrandMere_9" ID="{F0F68457-A62B-475D-B1C7-583C2643B944}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
+							<Position X="6" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="albumGrandMere_6" ID="{FDD9E099-2898-4F4B-839D-E64258117A01}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
+							<Position X="6" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="albumGrandMere_13" ID="{20F37D7F-09BC-42A1-BAB6-17617324BD58}" WorkUnitID="{638E502A-1946-483A-A0D7-1CCF431BEF94}"/>
+							<Position X="7" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundcasterSessions>
