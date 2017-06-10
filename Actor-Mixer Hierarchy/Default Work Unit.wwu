@@ -595,12 +595,7 @@
 				</ActorMixer>
 				<ActorMixer Name="tableau prog" ID="{375E0D1E-33A7-4E83-94F1-A927BABC9138}" ShortID="345581526">
 					<PropertyList>
-						<Property Name="DivergenceCenter" Type="int32">
-							<ValueList>
-								<Value>100</Value>
-							</ValueList>
-						</Property>
-						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="EnablePanner" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-13</Value>
@@ -762,13 +757,35 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{40D817AA-5C60-4C26-B392-C0D970E3E657}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="-0.407331975560087"/>
+								<Property Name="PanY" Type="Real64" Value="100"/>
+							</PropertyList>
+						</Panner>
+						<Position Name="" ID="{EA4D42C2-FAB7-46F7-930B-86F4F818E1B7}">
+							<ChildrenList>
+								<Path2D Name="tableau prog_Path" ID="{479D03A9-E7FF-43B3-A41C-83364C50C3DC}">
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>100</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+							</ChildrenList>
+						</Position>
+					</PositioningInfo>
 				</ActorMixer>
 				<ActorMixer Name="animations" ID="{C4B3B531-CE07-4B62-B90E-E9A3A701B0A4}" ShortID="68941603">
 					<PropertyList>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-10</Value>
+								<Value>5</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -784,6 +801,11 @@
 						<Sound Name="albumEnfantMort_2" ID="{95C6B49E-3F2B-48C4-B337-CDFFB80F30DE}" ShortID="881925748" Type="SoundFX">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -899,7 +921,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>1</Value>
+										<Value>-6</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -953,7 +975,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-1</Value>
+										<Value>3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1008,7 +1030,7 @@
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-9</Value>
+										<Value>-5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1021,13 +1043,13 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="télévision grand mère" ID="{7787AB08-2119-4706-A4B4-8D9260EC1F0C}" ShortID="179265841">
+								<AudioFileSource Name="télévision grand mère" ID="{CC2A4E61-2BC8-43FB-8EB6-AD66E4B304AA}" ShortID="1027748020">
 									<Language>SFX</Language>
-									<AudioFile>télévision grand mère.wav</AudioFile>
+									<AudioFile>télévision grand mère.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="télévision grand mère" ID="{7787AB08-2119-4706-A4B4-8D9260EC1F0C}" Platform="Linked"/>
+								<ActiveSource Name="télévision grand mère" ID="{CC2A4E61-2BC8-43FB-8EB6-AD66E4B304AA}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="albumGrandMere_4" ID="{226C1D1B-D02C-4057-9C05-EF8B6E2A5C3B}" ShortID="72105552" Type="SoundFX">

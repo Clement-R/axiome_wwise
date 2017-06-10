@@ -183,7 +183,7 @@
 				</Event>
 				<Event Name="reset" ID="{EA988901-C9C9-48F5-8625-A92B288D995D}">
 					<ChildrenList>
-						<Action Name="Stop All" ID="{CCC8FF5C-569B-498F-B428-B1D789B40C7F}" ShortID="907229880" Type="Stop" Scope="All" Global="false"/>
+						<Action Name="Stop All" ID="{CCC8FF5C-569B-498F-B428-B1D789B40C7F}" ShortID="907229880" Type="Stop" Scope="All" Global="true"/>
 						<Action Name="Post Event" ID="{FB1A2CDD-73FA-40F7-AB72-369AA4FB882F}" ShortID="54059144" Type="PlayEvent" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{0DF2712F-0692-4767-B05E-2B563B32C865}" Global="false">
